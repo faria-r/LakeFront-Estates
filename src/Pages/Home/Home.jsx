@@ -4,6 +4,8 @@ import AboutSection from "../../Components/AboutSection/AboutSection";
 import Achivement from "../../Components/Achivement/Achivement";
 
 import HomeSearch from "../../Components/HomeSearch/HomeSearch";
+import MeetAuthor from "../../Components/MeetAuthor/MeetAuthor";
+import Testimonials from "../../Components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -19,6 +21,12 @@ const Home = () => {
       </div>
       <div>
        <HomeSearch></HomeSearch>
+      </div>
+      <div>
+        <MeetAuthor></MeetAuthor>
+      </div>
+      <div>
+        <Testimonials></Testimonials>
       </div>
     </div>
   );
