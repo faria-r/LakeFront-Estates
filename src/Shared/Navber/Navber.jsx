@@ -1,4 +1,5 @@
 import React from "react";
+import { FcMenu } from "react-icons/fc";
 
 const Navber = () => {
   return (
@@ -50,7 +51,7 @@ const Navber = () => {
             LakeFront Estate
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center  hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-white font-semibold font-mono">
             <li>
               <a>HOME SEARCH</a>
@@ -79,9 +80,9 @@ const Navber = () => {
               {/* Page content here */}
               <label
                 htmlFor="my-drawer-4"
-                className="drawer-button btn btn-primary"
+                className="drawer-button btn bg-transparent border-0 text-2xl "
               >
-                Open drawer
+                <FcMenu className="text-white" />
               </label>
             </div>
             <div className="drawer-side">
