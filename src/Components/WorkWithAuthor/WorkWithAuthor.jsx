@@ -2,9 +2,9 @@ import React from "react";
 
 const WorkWithAuthor = () => {
   return (
-    <div className="bg-black h-[100vh]">
+    <div className="bg-black h-auto border">
  <div
-      className="h-[100vh] w-auto bg-fixed "
+      className="h-auto w-auto bg-fixed "
       style={{
         backgroundImage: `url("https://i.ibb.co/K20G808/no.jpg")`,
        backgroundRepeat:'no-repeat',
@@ -16,13 +16,18 @@ const WorkWithAuthor = () => {
     >
       <div className="text-center text-white w-[60vw] mx-auto py-36">
         <h1 className="text-5xl  my-16">Work With Faria</h1>
-        <p className=" text-xl  my-6 bg-black opacity-[.4]">
+        <p className=" text-xl  my-6 bg-black opacity-[.6]">
           A consistent top producer in the Lake Oconee area, Riezl has been
           recognized with numerous awards for her business accomplishments and
           community involvement. Contact Riezl today if you are thinking of
           selling or buying, or both.
         </p>
+
+        <div>
+      <button className="btn border-2 h-[36] border-white text-white bg-transparent rounded-none px-20 py-4 my-16 text-center">Let's Connect</button>
       </div>
+      </div>
+      
     </div>
     
     </div>
