@@ -6,6 +6,9 @@ import Achivement from "../../Components/Achivement/Achivement";
 import HomeSearch from "../../Components/HomeSearch/HomeSearch";
 import MeetAuthor from "../../Components/MeetAuthor/MeetAuthor";
 import Testimonials from "../../Components/Testimonials/Testimonials";
+import FeaturedForSell from "../../Components/FeaturedSell/FeaturedForSell";
+import Newsletter from "../../Components/Newsletter/Newsletter";
+import News from "../../Components/News/News";
 
 const Home = () => {
   return (
@@ -27,6 +30,15 @@ const Home = () => {
       </div>
       <div>
         <Testimonials></Testimonials>
+      </div>
+      <div>
+        <FeaturedForSell></FeaturedForSell>
+      </div>
+      <div>
+        <Newsletter></Newsletter>
+      </div>
+      <div>
+        <News></News>
       </div>
     </div>
   );

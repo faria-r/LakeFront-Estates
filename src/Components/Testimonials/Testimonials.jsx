@@ -17,6 +17,8 @@ import { Parallax, Pagination, Navigation } from 'swiper/modules';
 const Testimonials = () => {
     return (
         <>
+        <div className='w-[80vw] mx-auto mt-24 h-[70vh] mb-24'>
+            <h2 className='text-center font-mono text-5xl mt-16 mb-16'>Testimonials</h2>
         <Swiper
           style={{
             '--swiper-navigation-color': '#fff',
@@ -33,10 +35,10 @@ const Testimonials = () => {
         >
           <div
             slot="container-start"
-            className="parallax-bg"
+            className="parallax-bg opacity-[.4]"
             style={{
               'background-image':
-                'url(https://swiperjs.com/demos/images/nature-1.jpg)',
+                'url(https://i.ibb.co/f8L3s7d/Home21.jpg)',
             }}
             data-swiper-parallax="-23%"
           ></div>
@@ -98,6 +100,8 @@ const Testimonials = () => {
             </div>
           </SwiperSlide>
         </Swiper>
+        </div>
+       
       </>
             
     );
