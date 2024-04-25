@@ -41,9 +41,6 @@ const Home = () => {
       <div>
         <News></News>
       </div>
-      <div>
-        <WorkWithAuthor></WorkWithAuthor>
-      </div>
     </div>
   );
 };

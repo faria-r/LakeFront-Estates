@@ -1,7 +1,7 @@
 import React from "react";
 import { FcMenu } from "react-icons/fc";
 import DropdownContent from "../../Components/DropdownContent/DropdownContent";
-
+import logo from '../../assets/logo.png'
 const Navber = () => {
   return (
     <div className="absolute top-0 bg-transparent z-10 w-full pt-8">
@@ -50,7 +50,7 @@ const Navber = () => {
           </div> */}
 
           <a className="text-white text-xl font-mono lg:ml-16">
-            LakeFront Estate
+           <img src={logo}  className='w-[30vw] lg:w-[12vw]' alt="" />
           </a>
         </div>
         <div className="navbar-center  hidden lg:flex ">

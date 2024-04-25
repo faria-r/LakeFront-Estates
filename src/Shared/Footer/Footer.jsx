@@ -7,7 +7,7 @@ import {
 } from "react-icons/md";
 import { PiPhoneDisconnectBold } from "react-icons/pi";
 import SocialLinks from "../../Components/ReUsable/SocialLinks/SocialLinks";
-
+import logo from '../../assets/logo.png'
 const Footer = () => {
   return (
     <div className="w-[90vw] mx-auto mt-8 pt-8 pb-24 ">
@@ -48,7 +48,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 p-4 w-[90vw] ">
-        <div className="text-2xl">Lakefront Estates</div>
+        {/* <div className="text-2xl">Lakefront Estates</div> */}
+        <div className="text-2xl bg-transparent"><img src={logo} className=" w-36 bg-transparent"alt="" /></div>
         <div className="lg:-ml-[25%]">
           <h2 className="my-4">
             All information deemed reliable but not guaranteed and should be
