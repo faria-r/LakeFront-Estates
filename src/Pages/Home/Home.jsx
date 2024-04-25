@@ -10,6 +10,7 @@ import FeaturedForSell from "../../Components/FeaturedSell/FeaturedForSell";
 import Newsletter from "../../Components/Newsletter/Newsletter";
 import News from "../../Components/News/News";
 import WorkWithAuthor from "../../Components/WorkWithAuthor/WorkWithAuthor";
+import LakeOHomes from "../LakeOconeeHomes/LakeOHomes";
 
 const Home = () => {
   return (
@@ -41,6 +42,7 @@ const Home = () => {
       <div>
         <News></News>
       </div>
+      {/* <div><LakeOHomes></LakeOHomes></div> */}
     </div>
   );
 };

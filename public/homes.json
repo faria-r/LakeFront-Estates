@@ -1,0 +1,756 @@
+[
+    {
+      "_id": "662a92ed6a9eef4c43f77d0c",
+      "salesStatus": true,
+      "price": "$2,291.93",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Williams}",
+      "type": "Residential",
+      "neighbourhood": " luxury homes",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee",
+      "address": "502 Hull Street, Ogema, New York, 4906",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2024-04-21T04:07:01 -06:00",
+      "latitude": 46.382244,
+      "longitude": 72.538199,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 2,
+          "living": 724,
+          "acres": 772,
+          "flooring": "TILE",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 1,
+          "pool": "shared",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed7a9a5ea759e19c65",
+      "salesStatus": false,
+      "price": "$2,680.77",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Wilsonia}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "mls home",
+      "address": "885 Devon Avenue, Imperial, Vermont, 533",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2015-06-25T02:11:16 -06:00",
+      "latitude": -7.778099,
+      "longitude": 102.412474,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 2,
+          "living": 368,
+          "acres": 403,
+          "flooring": "TILE",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 3,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "non-commercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed11a1c4a1ad62adbb",
+      "salesStatus": false,
+      "price": "$2,961.26",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Sunwest}",
+      "type": "Residential",
+      "neighbourhood": " luxury homes",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "lake oconee condos",
+      "address": "995 Meserole Avenue, Gloucester, Georgia, 3399",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2024-04-16T12:47:03 -06:00",
+      "latitude": 19.709863,
+      "longitude": -80.47841,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 2,
+          "living": 224,
+          "acres": 208,
+          "flooring": "WOODEN",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 3,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed19309a5af30dad73",
+      "salesStatus": false,
+      "price": "$3,277.52",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Haena}",
+      "type": "Commercial",
+      "neighbourhood": " luxury homes",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee luxury homes",
+      "address": "410 Harbor Court, Kipp, Delaware, 6893",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2014-01-22T09:01:58 -06:00",
+      "latitude": -67.820156,
+      "longitude": -83.688512,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 2,
+          "living": 757,
+          "acres": 518,
+          "flooring": "CARPET",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 3,
+          "pool": "shared",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed40d5d0cc876bdf60",
+      "salesStatus": true,
+      "price": "$3,051.82",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Navarre}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee",
+      "address": "282 Melrose Street, Grimsley, New Jersey, 2474",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2014-10-10T06:14:19 -06:00",
+      "latitude": 63.503873,
+      "longitude": -111.907127,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 3,
+          "living": 271,
+          "acres": 465,
+          "flooring": "WOODEN",
+          "appliances": "DISHWASHER,GAS STOVE,Dryer, Vent Hood, Washer, Wine Cooler",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Deck, Covered Patio,  Storage Room"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed3dea7f6a521e608e",
+      "salesStatus": true,
+      "price": "$1,932.51",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Allensworth}",
+      "type": "Commercial",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee",
+      "address": "440 Rose Street, Newcastle, Palau, 2363",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2016-01-17T02:36:36 -06:00",
+      "latitude": -37.548583,
+      "longitude": 29.977523,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 1,
+          "living": 571,
+          "acres": 543,
+          "flooring": "CARPET",
+          "appliances": "DISHWASHER,GAS STOVE,Dryer, Vent Hood, Washer, Wine Cooler",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 1,
+          "pool": "private Access",
+          "roof": "comp shingle",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": "Covered Deck, Covered Patio,  Storage Room"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92eda546c6587e9c74e0",
+      "salesStatus": false,
+      "price": "$2,479.33",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Wacissa}",
+      "type": "Commercial",
+      "neighbourhood": " luxury homes",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "mls home",
+      "address": "190 Thatford Avenue, Craig, Kansas, 5807",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2015-10-09T09:49:55 -06:00",
+      "latitude": -76.17277,
+      "longitude": 151.382797,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 3,
+          "living": 726,
+          "acres": 460,
+          "flooring": "WOODEN",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "comp shingle",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed4564811c63070ca1",
+      "salesStatus": true,
+      "price": "$1,874.32",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Norwood}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee luxury homes",
+      "address": "886 Jardine Place, Helen, North Carolina, 2609",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2019-05-22T07:44:02 -06:00",
+      "latitude": -61.790052,
+      "longitude": -109.813861,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 3,
+          "living": 743,
+          "acres": 785,
+          "flooring": "WOODEN",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 1,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92edf3450695b9f2317f",
+      "salesStatus": false,
+      "price": "$2,626.50",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Lydia}",
+      "type": "Commercial",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "lake oconee luxury homes",
+      "address": "734 Caton Avenue, Siglerville, Federated States Of Micronesia, 1375",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2015-08-01T04:40:11 -06:00",
+      "latitude": -11.407534,
+      "longitude": -15.993638,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 2,
+          "living": 763,
+          "acres": 383,
+          "flooring": "CARPET",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": "Covered Deck, Covered Patio,  Storage Room"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed239ee3bbcb7558da",
+      "salesStatus": true,
+      "price": "$1,212.02",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Eastmont}",
+      "type": "Residential",
+      "neighbourhood": " luxury homes",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee luxury homes",
+      "address": "725 Shale Street, Bergoo, New Mexico, 9903",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2023-08-29T10:30:27 -06:00",
+      "latitude": -38.128195,
+      "longitude": -118.896595,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 1,
+          "living": 592,
+          "acres": 450,
+          "flooring": "CARPET",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "comp shingle",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    },
+    {
+      "_id": "662a92ed513cd8f3b2b145eb",
+      "salesStatus": false,
+      "price": "$3,705.35",
+      "Homepicture": "http://placehold.it/32x32",
+      "registrationID": "{{integer(20, 40)},Venice}",
+      "type": "Residential",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "http://placehold.it/32x32",
+      "name": "raynoldes lake oconee",
+      "address": "774 Estate Road, Gordon, Iowa, 4271",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2014-08-28T11:07:22 -06:00",
+      "latitude": -13.946155,
+      "longitude": 152.523475,
+      "interior": [
+        {
+          "id": 0,
+          "bed": "<SyntaxError: Unexpected number>}",
+          "bath": 3,
+          "living": 383,
+          "acres": 614,
+          "flooring": "WOODEN",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": "<SyntaxError: Unexpected number>}",
+          "stories": 3,
+          "pool": "shared",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": "Covered Deck, Covered Patio,  Storage Room"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 1,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 2,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 3,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 4,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 5,
+          "pic": "http://placehold.it/32x32"
+        },
+        {
+          "id": 6,
+          "pic": "http://placehold.it/32x32"
+        }
+      ]
+    }
+  ]
