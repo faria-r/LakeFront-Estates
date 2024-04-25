@@ -6,12 +6,13 @@ import {
   MdRealEstateAgent,
 } from "react-icons/md";
 import { PiPhoneDisconnectBold } from "react-icons/pi";
+import SocialLinks from "../../Components/ReUsable/SocialLinks/SocialLinks";
 
 const Footer = () => {
   return (
-    <div className="w-[90vw] mx-auto mt-8">
+    <div className="w-[90vw] mx-auto mt-8 pt-8 pb-24 ">
       <h2 className="text-3xl my-6">LakeFront Real Estates</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-3 w-[80vw] p-6 border items-start  font-sans">
+      <div className="grid grid-cols-1 lg:grid-cols-3 w-[80vw] p-6  items-start  font-sans">
         <div>
           <h2 className="text-xl lg:mt-6">Lake Oconee Real Estate Expert</h2>
         </div>
@@ -46,7 +47,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 p-4 w-[90vw] border">
+      <div className="grid grid-cols-1 lg:grid-cols-2 p-4 w-[90vw] ">
         <div className="text-2xl">Lakefront Estates</div>
         <div className="lg:-ml-[25%]">
           <h2 className="my-4">
@@ -57,6 +58,20 @@ const Footer = () => {
             <MdRealEstateAgent />
             <MdHomeWork />
           </div>
+        </div>
+      </div>
+      <hr />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-6">
+        <div className="text-2xl relative">
+            <h2>Powered By <span className="font-bold underline">Luxury Presence</span></h2>
+            <div className="absolute left-0">
+            <SocialLinks></SocialLinks>
+            </div>
+            
+        </div>
+        <div>
+            <p className="text-2xl">Copyright © 2024 <span className="font-bold"> | Privacy Policy</span></p>
         </div>
       </div>
     </div>
