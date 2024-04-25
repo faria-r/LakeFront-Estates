@@ -4,19 +4,19 @@ import SocialLinks from "../ReUsable/SocialLinks/SocialLinks";
 
 const MeetAuthor = () => {
   return (
-    <div className="w-[90vw] mx-auto flex justify-between items-center gap-2">
-      <div className="mr-8">
-        <div>
-          <img src="https://i.ibb.co/k89ZvSk/650b43ed39865.webp" alt="" />
+    <div className="w-[90vw] mx-auto lg:text-start lg:flex  lg:justify-between items-center gap-2">
+      <div className="lg:mr-8">
+        <div className="sm:w-[60vw] mx-auto lg:w-auto border text-center">
+          <img className="w-auto" src="https://i.ibb.co/k89ZvSk/650b43ed39865.webp" alt="" />
         </div>
         <div>
           <SocialLinks></SocialLinks>
         </div>
       </div>
 
-      <div className="w-3/4">
+      <div className="w-3/4 mx-auto ">
         <div>
-          <h2 className="text-4xl font-serif font-semibold">Meet Faria</h2>
+          <h2 className="text-4xl sm:mt-8 lg:mt-0 font-serif font-semibold">Meet Faria</h2>
         </div>
         <div className="w-3/4 border-b-[1px] border-b-gray-500 my-8"></div>
         <div>

@@ -62,7 +62,7 @@ const Footer = () => {
       </div>
       <hr />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 mt-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mt-6 gap-24 lg:gap-4">
         <div className="text-2xl relative">
             <h2>Powered By <span className="font-bold underline">Luxury Presence</span></h2>
             <div className="absolute left-0">

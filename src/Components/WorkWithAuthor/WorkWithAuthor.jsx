@@ -14,8 +14,8 @@ const WorkWithAuthor = () => {
        
       }}
     >
-      <div className="text-center text-white w-[60vw] mx-auto py-36">
-        <h1 className="text-5xl  my-16">Work With Faria</h1>
+      <div className="text-center text-white lg:w-[60vw] mx-auto py-36">
+        <h1 className=" text-3xl lg:text-5xl  my-16">Work With Faria</h1>
         <p className=" text-xl  my-6 bg-black opacity-[.6]">
           A consistent top producer in the Lake Oconee area, Riezl has been
           recognized with numerous awards for her business accomplishments and
