@@ -7,8 +7,8 @@ const FeaturedForSell = () => {
       <h2 className="text-5xl font-serif pt-36 pb-12">
         Lake Oconee Real Estate for Sale
       </h2>
-      <div className="grid lg:grid-cols-2 gap-8 h-auto p-8 mb-8">
-        <div className=" h-[50vh] lg:h-[90vh] relative">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 h-auto p-8 mb-8">
+        <div className=" h-auto lg:h-[90vh] relative">
           <div>
             <img
               src="https://i.ibb.co/S76QYFs/Home17.jpg"
@@ -25,7 +25,7 @@ const FeaturedForSell = () => {
             <p className="bg-sky-900 px-16 py-2 text-white">FOR SALE</p>
           </div>
         </div>
-        <div className=" h-[50vh] lg:h-[90vh] relative">
+        <div className="h-auto lg:h-[90vh] relative">
           <div>
             <img
               src="https://i.ibb.co/S76QYFs/Home17.jpg"
