@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
-const useAxios = () => {
+const useAxios = (apiEndPoint) => {
     const [data, setData] = useState([]);
     const [loading,setLoading] = useState(false);
     const [error,setError] = useState(null);
@@ -9,7 +9,7 @@ const useAxios = () => {
     const getHomes = async () => {
         setLoading(true);
         await axios
-          .get("homes.json")
+          .get(`http://localhost:5000/${apiEndPoint}`)
           .then((response) => {
             setData(response.data);
             setLoading(false);
