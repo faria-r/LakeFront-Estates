@@ -41,7 +41,7 @@ const DetailedHomeInfo = () => {
         <p className="text-2xl font-mono font-bold">$ {price}</p>
 
         <div className="lg:flex">
-          <div className="border-r-[1px] border-r-black w-[60vw] pr-8 py-6 text-xl font-mono text-justify">
+          <div className="border-r-[1px] border-r-black w-[60vw] pr-16 py-6 text-xl font-mono text-justify">
             <p className="my-4">{details}</p>
           </div>
           <div className="w-[30vw] mx-auto text-center">
