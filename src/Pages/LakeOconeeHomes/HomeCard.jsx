@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HomeCard = ({home}) => {
-    const {name,address,price,Homepicture} = home;
+    const {_id,name,address,price,Homepicture} = home;
     return (
-        <div className='border h-auto mb-8 mt-8'>
+        <div className='h-auto mb-8 mt-8'>
+            <Link to={`/home/${_id}`}>
             <div className="h-auto relative mx-auto shadow-xl">
           <div>
             <img
@@ -22,6 +24,8 @@ const HomeCard = ({home}) => {
             <p className="bg-sky-900 px-4 py-1 text-white">FOR SALE</p>
           </div>
         </div>
+            </Link>
+         
         </div>
     );
 };

@@ -11,13 +11,15 @@ import './styles.css';
 
 // import required modules
 import { Parallax, Pagination, Navigation } from 'swiper/modules';
+import useAxios from '../../Hooks/useAxios';
 
 
 
 const Testimonials = () => {
+  const {data} = useAxios('testimonials')
     return (
         <>
-        <div className='w-[80vw] mx-auto mt-24 h-[70vh] mb-24'>
+        <div className='w-[80vw] mx-auto mt-24 items-center lg:h-[70vh] mb-24'>
             <h2 className='text-center font-mono text-5xl mt-16 mb-16'>Testimonials</h2>
         <Swiper
           style={{
@@ -42,63 +44,24 @@ const Testimonials = () => {
             }}
             data-swiper-parallax="-23%"
           ></div>
-          <SwiperSlide>
+
+          {
+            data.map(each =>  <SwiperSlide key={each._id} each={each} className='text-center'>
             <div className="title" data-swiper-parallax="-300">
-              Slide 1
+              {each.name}
             </div>
-            <div className="subtitle" data-swiper-parallax="-200">
-              Subtitle
+            <div className="mt-4" data-swiper-parallax="-200">
+              {each.title}
             </div>
-            <div className="text" data-swiper-parallax="-100">
+            <div className="w-3/4 line-clamp-5 mx-auto my-6 text-justify" data-swiper-parallax="-100">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-                Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-                Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+                {each.about}
               </p>
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="title" data-swiper-parallax="-300">
-              Slide 2
-            </div>
-            <div className="subtitle" data-swiper-parallax="-200">
-              Subtitle
-            </div>
-            <div className="text" data-swiper-parallax="-100">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-                Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-                Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="title" data-swiper-parallax="-300">
-              Slide 3
-            </div>
-            <div className="subtitle" data-swiper-parallax="-200">
-              Subtitle
-            </div>
-            <div className="text" data-swiper-parallax="-100">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-                laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-                Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-                Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-                ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-                tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-              </p>
-            </div>
-          </SwiperSlide>
+          </SwiperSlide> )
+          }
+         
+       
         </Swiper>
         </div>
        

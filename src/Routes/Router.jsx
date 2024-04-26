@@ -3,6 +3,7 @@ import Main from "../LayOut/Main";
 import Home from "../Pages/Home/Home";
 import LakeOHomes from "../Pages/LakeOconeeHomes/LakeOHomes";
 import AllFeaturedHomes from "../Components/AllFeaturedHomes/AllFeaturedHomes";
+import DetailedHomeInfo from "../Pages/DetailedHomeInfo/DetailedHomeInfo";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,11 @@ export const router = createBrowserRouter([
         loader: ({ params }) =>
           fetch(`http://localhost:5000/homes/${params.name}`),
       },
+      {
+        path:'/home/:id',
+        element:<DetailedHomeInfo></DetailedHomeInfo>,
+        loader:({params}) => fetch(`http://localhost:5000/home/${params.id}`)
+      }
     ],
   },
 ]);

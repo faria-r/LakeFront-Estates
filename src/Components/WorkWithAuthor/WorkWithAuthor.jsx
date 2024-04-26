@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkWithAuthor = () => {
   return (
-    <div className="bg-black h-auto border">
+    <div className="bg-black h-auto border mt-24">
  <div
       className="h-auto w-auto bg-fixed "
       style={{
