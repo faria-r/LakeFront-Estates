@@ -13,7 +13,7 @@ const HomeCard = ({home}) => {
             />
           </div>
           <div className=" p-6 font-sans">
-            <p className='text-2xl my-2'>{price}</p>
+            <p className='text-2xl my-2'>$ {price}</p>
             <p className="">{name}</p>
             <p> {address}</p>
           </div>

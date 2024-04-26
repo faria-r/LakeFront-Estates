@@ -26,11 +26,10 @@ const Newsletter = () => {
           />
         </div>
         <div className="sm:my-8 p-4 ">
-        <button className="btn border-2 bg-sky-950 text-white rounded-none px-20  py-4 items-center text-xl">
-          Submit
-        </button>
+          <button className="btn border-2 bg-sky-950 text-white rounded-none px-20  py-4 items-center text-xl">
+            Submit
+          </button>
         </div>
-      
       </div>
       <div className="lg:w-[50vw] mx-auto text-justify my-6">
         <p>

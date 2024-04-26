@@ -1,0 +1,1137 @@
+[
+    {
+      "_id": "662b4d41e148d202e971018f",
+      "salesStatus": false,
+      "price": 3781.65,
+      "Homepicture": "https://i.ibb.co/PcHTVL1/Home4.jpg",
+      "registrationID": "{{integer(20, 40)},Beyerville}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/cJHtr1q/lod.jpg",
+      "name": "lake oconee luxury homes",
+      "categoryname": "lake oconee",
+      "address": "761 Hubbard Place, Knowlton, Wyoming, 7078",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2022-10-03T03:03:06 -06:00",
+      "latitude": -47.318431,
+      "longitude": -12.154116,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 3,
+          "living": 688,
+          "acres": 664,
+          "flooring": "CARPET",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 5,
+          "stories": 1,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "AC",
+          "sewer": "non-commercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710190",
+      "salesStatus": false,
+      "price": 1136.45,
+      "Homepicture": "https://i.ibb.co/WDSFf1q/Home2.jpg",
+      "registrationID": "{{integer(20, 40)},Fruitdale}",
+      "type": "Residential",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/k3KY9Mr/er.jpg",
+      "name": "raynoldes lake oconee luxury homes",
+      "categoryname": "lake oconee",
+      "address": "990 Grove Street, Leeper, Missouri, 3828",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2023-09-15T04:46:34 -06:00",
+      "latitude": -56.847066,
+      "longitude": -169.409188,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 5,
+          "bath": 1,
+          "living": 516,
+          "acres": 705,
+          "flooring": "TILE",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 3,
+          "pool": "shared",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Porch, Patio, Porch, Screened Porch,"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710191",
+      "salesStatus": false,
+      "price": 3642.00,
+      "Homepicture": "https://i.ibb.co/ggXHkXZ/Home9.jpg",
+      "registrationID": "{{integer(20, 40)},Boling}",
+      "type": "Residential",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": " https://i.ibb.co/hBBLXkr/kip.jpg",
+      "name": "lake oconee",
+      "categoryname": "lake oconee luxury homes",
+      "address": "478 Milford Street, Fedora, Wisconsin, 2992",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2018-12-31T08:10:05 -06:00",
+      "latitude": -50.657273,
+      "longitude": 91.889629,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 3,
+          "living": 223,
+          "acres": 336,
+          "flooring": "WOODEN",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 1,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "CENTRAL",
+          "sewer": "non-commercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710192",
+      "salesStatus": false,
+      "price": 1531.96,
+      "Homepicture": "https://i.ibb.co/VYvM0R5/Home13.jpg",
+      "registrationID": "{{integer(20, 40)},Brantleyville}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": " https://i.ibb.co/4Y6ycVg/yyu.jpg",
+      "name": "raynoldes lake oconee luxury homes",
+      "categoryname": "raynoldes lake oconee luxury homes",
+      "address": "601 Empire Boulevard, Curtice, Vermont, 1956",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2023-04-28T04:47:27 -06:00",
+      "latitude": -35.040281,
+      "longitude": -47.660024,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 3,
+          "bath": 1,
+          "living": 453,
+          "acres": 472,
+          "flooring": "TILE",
+          "appliances": "DISHWASHER,GAS STOVE,Dryer, Vent Hood, Washer, Wine Cooler",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Porch, Patio, Porch, Screened Porch,"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710193",
+      "salesStatus": true,
+      "price": 2128.71,
+      "Homepicture": "https://i.ibb.co/GML3qxm/home10.jpg",
+      "registrationID": "{{integer(20, 40)},Itmann}",
+      "type": "Residential",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "  https://i.ibb.co/yR2KvGz/nj.jpg",
+      "name": "lake oconee",
+      "categoryname": "raynoldes lake oconee",
+      "address": "555 Holt Court, Jacumba, Illinois, 8321",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2019-06-25T09:52:44 -06:00",
+      "latitude": -62.777737,
+      "longitude": -88.443338,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 1,
+          "living": 358,
+          "acres": 411,
+          "flooring": "TILE",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "comp shingle",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710194",
+      "salesStatus": false,
+      "price": 1791.89,
+      "Homepicture": "https://i.ibb.co/nQwhT97/Home12.jpg",
+      "registrationID": "{{integer(20, 40)},Frank}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/1Tb6S4C/we.jpg",
+      "name": "mls home",
+      "categoryname": "raynoldes lake oconee luxury homes",
+      "address": "404 Kenmore Terrace, Grapeview, New Mexico, 8865",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2021-09-07T05:39:04 -06:00",
+      "latitude": -29.667077,
+      "longitude": -109.597557,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 1,
+          "living": 591,
+          "acres": 379,
+          "flooring": "WOODEN",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 3,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "non-commercial",
+          "others": "Covered Deck, Covered Patio,  Storage Room"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710195",
+      "salesStatus": true,
+      "price": 2167.98,
+      "Homepicture": "https://i.ibb.co/SQpF7zH/Home18.jpg",
+      "registrationID": "{{integer(20, 40)},Diaperville}",
+      "type": "Residential",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "https://i.ibb.co/1Tb6S4C/we.jpg",
+      "name": "lake oconee luxury homes",
+      "categoryname": "lake oconee",
+      "address": "898 Canton Court, Dexter, Ohio, 6981",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2020-05-01T11:15:19 -06:00",
+      "latitude": -40.482616,
+      "longitude": -66.495158,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 3,
+          "bath": 2,
+          "living": 546,
+          "acres": 544,
+          "flooring": "CARPET",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 1,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "non-commercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ] },
+    {
+      "_id": "662b4d41e148d202e9710196",
+      "salesStatus": false,
+      "price": 3984.09,
+      "Homepicture": "https://i.ibb.co/hmQ1mDk/Home16.jpg",
+      "registrationID": "{{integer(20, 40)},Berwind}",
+      "type": "Commercial",
+      "neighbourhood": " luxury homes",
+      "neighbourhoodIMG": "https://i.ibb.co/hVS0gyf/bhf.jpg",
+      "name": "lake oconee luxury homes",
+      "categoryname": "raynoldes lake oconee",
+      "address": "438 Lee Avenue, Celeryville, Delaware, 4608",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2019-04-09T09:34:52 -06:00",
+      "latitude": 43.327874,
+      "longitude": -154.253019,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 2,
+          "living": 300,
+          "acres": 231,
+          "flooring": "TILE",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 2,
+          "pool": "shared",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "non-commercial",
+          "others": "Covered Deck, Covered Patio,  Storage Room"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710197",
+      "salesStatus": false,
+      "price": 3031.35,
+      "Homepicture": "https://i.ibb.co/S76QYFs/Home17.jpg",
+      "registrationID": "{{integer(20, 40)},Newcastle}",
+      "type": "Residential",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/hXNNdj1/ki.jpg",
+      "name": "lake oconee condos",
+      "categoryname": "mls home",
+      "address": "909 Williamsburg Street, Brogan, Rhode Island, 4888",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2021-09-28T01:16:53 -06:00",
+      "latitude": -55.179295,
+      "longitude": 162.414967,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 5,
+          "bath": 3,
+          "living": 319,
+          "acres": 255,
+          "flooring": "TILE",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 1,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Porch, Patio, Porch, Screened Porch,"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710198",
+      "salesStatus": false,
+      "price": 1417.01,
+      "Homepicture": "https://i.ibb.co/f8L3s7d/Home21.jpg",
+      "registrationID": "{{integer(20, 40)},Worton}",
+      "type": "Residential",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/Bfc6XRJ/cv.webp",
+      "name": "raynoldes lake oconee",
+      "categoryname": "lake oconee luxury homes",
+      "address": "153 Eaton Court, Bartonsville, Federated States Of Micronesia, 6022",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2019-12-21T07:45:47 -06:00",
+      "latitude": -8.833204,
+      "longitude": -161.271878,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 3,
+          "bath": 2,
+          "living": 301,
+          "acres": 616,
+          "flooring": "TILE",
+          "appliances": "DISHWASHER,GAS STOVE,Dryer, Vent Hood, Washer, Wine Cooler",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 1,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "AC",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e9710199",
+      "salesStatus": true,
+      "price": 1864.50,
+      "Homepicture": "https://i.ibb.co/zs3mGqc/home22.jpg",
+      "registrationID": "{{integer(20, 40)},Tolu}",
+      "type": "Residential",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/QJsg6km/asd.jpg",
+      "name": "lake oconee luxury homes",
+      "categoryname": "mls home",
+      "address": "998 Beverly Road, Layhill, Alabama, 4830",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2014-01-19T05:18:49 -06:00",
+      "latitude": -5.158403,
+      "longitude": 91.682484,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 5,
+          "bath": 2,
+          "living": 424,
+          "acres": 392,
+          "flooring": "WOODEN",
+          "appliances": "DISHWASHER,GAS STOVE,Dryer, Vent Hood, Washer, Wine Cooler",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 3,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Porch, Patio, Porch, Screened Porch,"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e971019a",
+      "salesStatus": false,
+      "price": 3781.65,
+      "Homepicture": "https://i.ibb.co/xYJcW72/home23.jpg",
+      "registrationID": "{{integer(20, 40)},Beyerville}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": " https://i.ibb.co/2MyfY5p/jk.jpg",
+      "name": "lake oconee luxury homes",
+      "categoryname": "lake oconee",
+      "address": "761 Hubbard Place, Knowlton, Wyoming, 7078",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2022-10-03T03:03:06 -06:00",
+      "latitude": -47.318431,
+      "longitude": -12.154116,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 3,
+          "living": 688,
+          "acres": 664,
+          "flooring": "CARPET",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 5,
+          "stories": 1,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "AC",
+          "sewer": "non-commercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e971019b",
+      "salesStatus": false,
+      "price": 1136.45,
+      "Homepicture": "https://i.ibb.co/Q8Kf4DH/Home27.jpg",
+      "registrationID": "{{integer(20, 40)},Fruitdale}",
+      "type": "Residential",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/sV55xxb/sd.jpg",
+      "name": "raynoldes lake oconee luxury homes",
+      "categoryname": "lake oconee",
+      "address": "990 Grove Street, Leeper, Missouri, 3828",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2023-09-15T04:46:34 -06:00",
+      "latitude": -56.847066,
+      "longitude": -169.409188,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 5,
+          "bath": 1,
+          "living": 516,
+          "acres": 705,
+          "flooring": "TILE",
+          "appliances": "Microwave, Dishwasher, Double Ovens",
+          "others": "Sauna, Security System,  Whole House Water Softener, Master on Main"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 3,
+          "pool": "shared",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Porch, Patio, Porch, Screened Porch,"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e971019c",
+      "salesStatus": false,
+      "price": 3642.00,
+      "Homepicture": "https://i.ibb.co/CtCtrLs/Home29.jpg",
+      "registrationID": "{{integer(20, 40)},Boling}",
+      "type": "Residential",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "https://i.ibb.co/5LxJwV0/s.jpg",
+      "name": "lake oconee",
+      "categoryname": "lake oconee luxury homes",
+      "address": "478 Milford Street, Fedora, Wisconsin, 2992",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2018-12-31T08:10:05 -06:00",
+      "latitude": -50.657273,
+      "longitude": 91.889629,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 3,
+          "living": 223,
+          "acres": 336,
+          "flooring": "WOODEN",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 1,
+          "pool": "shared",
+          "roof": "comp shingle",
+          "heat": "CENTRAL",
+          "sewer": "non-commercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e971019d",
+      "salesStatus": false,
+      "price": 1531.96,
+      "Homepicture": "https://i.ibb.co/Fn5kkfm/home33.jpg",
+      "registrationID": "{{integer(20, 40)},Brantleyville}",
+      "type": "Commercial",
+      "neighbourhood": "LAKE OCONEE",
+      "neighbourhoodIMG": "https://i.ibb.co/58MGMC4/one.jpg",
+      "name": "raynoldes lake oconee luxury homes",
+      "categoryname": "raynoldes lake oconee luxury homes",
+      "address": "601 Empire Boulevard, Curtice, Vermont, 1956",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2023-04-28T04:47:27 -06:00",
+      "latitude": -35.040281,
+      "longitude": -47.660024,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 3,
+          "bath": 1,
+          "living": 453,
+          "acres": 472,
+          "flooring": "TILE",
+          "appliances": "DISHWASHER,GAS STOVE,Dryer, Vent Hood, Washer, Wine Cooler",
+          "others": " Security System,  Whole House Water Softener"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 2,
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "asphalt",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": "Covered Porch, Patio, Porch, Screened Porch,"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    },
+    {
+      "_id": "662b4d41e148d202e971019e",
+      "salesStatus": true,
+      "price": 2128.71,
+      "Homepicture": "https://i.ibb.co/8zjSQQ1/home28.jpg",
+      "registrationID": "{{integer(20, 40)},Itmann}",
+      "type": "Residential",
+      "neighbourhood": "raynoldes lake",
+      "neighbourhoodIMG": "https://i.ibb.co/n7PMJNG/ol.jpg",
+      "name": "lake oconee",
+      "categoryname": "raynoldes lake oconee",
+      "address": "555 Holt Court, Jacumba, Illinois, 8321",
+      "details": "{{\"Presenting the Ultimate Luxury Lake Estate, Your Own Private Lake Resort at Reynolds Lake Oconee, minutes from the amenities and the Ritz by car or by boat. Crafted with unparalleled attention to details by premier builders Jones and Jones, no expense was spared in creating this masterpiece that boasts superior craftsmanship and luxury amenities. Situated on an acre of prime lakefront property, soak in big lake views and the picturesque Jack Nicklaus golf course vistas every day. Enjoy sunset views and watch July 4th fireworks from your pool deck or private boat dock, adding a touch of magic to your evenings.With over 7,700 square feet of pure quality and luxury, this home uniquely features five oversized garages, catering to the most discerning of car enthusiasts and a separate pool house.Step inside to be captivated by a grand great room adorned with abundant natural light and majestic lake views, seamlessly blending indoor and outdoor living. Entertain in the high-end kitchen equipped with Wolf and Subzero appliances and a wine bar while the dining room opens to an expansive screened porch with a fireplace,perfect for al fresco dining, and a balcony overlooking the lake. The keeping room, an extension of the living and dining area, is complemented by glass doors that connects the porches and the outdoor deck overlooking the luxurious pool area.\"}",
+      "registered": "2019-06-25T09:52:44 -06:00",
+      "latitude": -62.777737,
+      "longitude": -88.443338,
+      "interior": [
+        {
+          "id": 0,
+          "bed": 4,
+          "bath": 1,
+          "living": 358,
+          "acres": 411,
+          "flooring": "TILE",
+          "appliances": " Freezer, Microwave, Range, Refrigerator, Separate Ice Machine,",
+          "others": "Smoke Detector, Spa, Window Treatments"
+        }
+      ],
+      "exterior": [
+        {
+          "id": 0,
+          "garage": 4,
+          "stories": 2,
+          "pool": "private Access",
+          "roof": "comp shingle",
+          "heat": "CENTRAL",
+          "sewer": "COmmercial",
+          "others": " Covered Porch, Patio, Porch, Screened Porch"
+        }
+      ],
+      "picarray": [
+        {
+          "id": 0,
+          "pic": "https://i.ibb.co/S76QYFs/Home17.jpg"
+        },
+        {
+          "id": 1,
+          "pic": "https://i.ibb.co/zs3mGqc/home22.jpg"
+        },
+        {
+          "id": 2,
+          "pic": "https://i.ibb.co/SQpF7zH/Home18.jpg"
+        },
+        {
+          "id": 3,
+          "pic": "https://i.ibb.co/GML3qxm/home10.jpg"
+        },
+        {
+          "id": 4,
+          "pic": "https://i.ibb.co/VYvM0R5/Home13.jpg"
+        },
+        {
+          "id": 5,
+          "pic": "https://i.ibb.co/FKnLk50/home7.jpg"
+        },
+        {
+          "id": 6,
+          "pic": "https://i.ibb.co/PcHTVL1/Home4.jpg"
+        }
+      ]
+    }
+  ]
