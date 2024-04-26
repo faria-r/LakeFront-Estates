@@ -1,7 +1,8 @@
 import React from "react";
 import { FcMenu } from "react-icons/fc";
 import DropdownContent from "../../Components/DropdownContent/DropdownContent";
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 const Navber = () => {
   return (
     <div className="absolute top-0 bg-transparent z-10 w-full pt-8">
@@ -48,10 +49,9 @@ const Navber = () => {
               </li>
             </ul>
           </div> */}
-
-          <a className="text-white text-xl font-mono lg:ml-16">
-           <img src={logo}  className='w-[30vw] lg:w-[12vw]' alt="" />
-          </a>
+          <Link to="/" className="text-white text-xl font-mono lg:ml-16">
+            <img src={logo} className="w-[30vw] lg:w-[12vw]" alt="" />
+          </Link>
         </div>
         <div className="navbar-center  hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-white font-semibold opacity-[.7] font-mono">
@@ -63,12 +63,17 @@ const Navber = () => {
                 tabIndex={0}
                 className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-black   w-[35vw] text-white text-xl"
               >
-                <li>
-                  <a>lake oconee</a>
-                </li>
-                <li>
-                  <a>raynoldes lake oconee</a>
-                </li>
+                <Link to='/lake-oconee'>
+                  <li>
+                    <a>lake oconee</a>{" "}
+                  </li>
+                </Link>
+                <Link>
+                  <li>
+                    <a>raynoldes lake oconee</a>
+                  </li>
+                </Link>
+
                 <li>
                   <a>lake oconee condos</a>
                 </li>
