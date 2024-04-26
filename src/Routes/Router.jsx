@@ -3,6 +3,7 @@ import Main from "../LayOut/Main";
 import Home from "../Pages/Home/Home";
 import TestPage from "../Pages/TestPage/TestPage";
 import LakeOHomes from "../Pages/LakeOconeeHomes/LakeOHomes";
+import AllFeaturedHomes from "../Components/AllFeaturedHomes/AllFeaturedHomes";
 
 export const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/featuredHomes",
+        element:<AllFeaturedHomes></AllFeaturedHomes>,
       },
 
       {

@@ -9,7 +9,7 @@ const HomeCard = ({home}) => {
             <img
               src={Homepicture}
               alt=""
-              className="lg:h-[50vh] lg:w-[60vw]"
+              className="lg:h-[40vh] lg:w-[60vw] hover:scale-105"
             />
           </div>
           <div className=" p-6 font-sans">
@@ -19,7 +19,7 @@ const HomeCard = ({home}) => {
           </div>
           <div className="absolute top-0 right-0">
             {" "}
-            <p className="bg-sky-900 px-16 py-2 text-white">FOR SALE</p>
+            <p className="bg-sky-900 px-4 py-1 text-white">FOR SALE</p>
           </div>
         </div>
         </div>

@@ -1,49 +1,29 @@
 import React from "react";
 import Button from "../ReUsable/Button/Button";
+import useAxios from "../../Hooks/useAxios";
+import FeaturedHomes from "./FeaturedHomes";
+import { Link } from "react-router-dom";
 
 const FeaturedForSell = () => {
+  const {data} = useAxios('homeList');
+  const filteredData = data.slice(13,15);
+  console.log(filteredData.length)
   return (
     <div className="w-[90vw] mx-auto text-center">
       <h2 className="text-5xl font-serif pt-36 pb-12">
         Lake Oconee Real Estate for Sale
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 h-auto p-8 mb-8">
-        <div className=" h-auto lg:h-[90vh] relative">
-          <div>
-            <img
-              src="https://i.ibb.co/S76QYFs/Home17.jpg"
-              alt=""
-              className="lg:h-[60vh] lg:w-[70vw]"
-            />
-          </div>
-          <div className="bg-sky-900 py-16 text-white text-center  font-bold font-sans">
-            <p className="text-2xl">1220 LAKE CLUB DRIVE</p>
-            <p> 1220 LAKE CLUB DRIVE, GREENSBORO, GA 30642</p>
-          </div>
-          <div className="absolute top-0 right-0">
-            {" "}
-            <p className="bg-sky-900 px-16 py-2 text-white">FOR SALE</p>
-          </div>
-        </div>
-        <div className="h-auto lg:h-[90vh] relative">
-          <div>
-            <img
-              src="https://i.ibb.co/S76QYFs/Home17.jpg"
-              alt=""
-              className="lg:h-[60vh] lg:w-[70vw]"
-            />
-          </div>
-          <div className="bg-sky-900 py-16 text-white text-center  font-bold font-sans">
-            <p className="text-2xl">1220 LAKE CLUB DRIVE</p>
-            <p> 1220 LAKE CLUB DRIVE, GREENSBORO, GA 30642</p>
-          </div>
-          <div className="absolute top-0 right-0">
-            {" "}
-            <p className="bg-sky-900 px-16 py-2 text-white">FOR SALE</p>
-          </div>
-        </div>
+      {
+        filteredData && 
+        filteredData.map( home => <FeaturedHomes home={home} key={home._id}></FeaturedHomes> )
+      }
+
+      
       </div>
-      <Button value={"View All"}></Button>
+      <Link to='/featuredHomes'> <Button value={"View All"}></Button>
+      </Link>
+     
     </div>
   );
 };
