@@ -2,16 +2,16 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import HomeCard from "./HomeCard";
 import ImgsBanner from "../../Components/ReUsable/imgBanner/ImgsBanner";
-import useAxios from "../../Hooks/useAxios";
-import useFindHome from "../../Hooks/useFindHome";
 import { useLoaderData } from "react-router-dom";
 const LakeOHomes = () => {
   const findHomes = useLoaderData();
-
+const takeName =findHomes[0];
+const homeName = takeName.name.toUpperCase();
+console.log(homeName)
   return (
     <div>
-      <ImgsBanner></ImgsBanner>
-      <div className="grid grid-cols-2">
+      <ImgsBanner name={homeName} ></ImgsBanner>
+      <div className=" w-[90vw] grid md:grid-cols-2 lg:grid-cols-3 mx-auto gap-3 my-16">
         {findHomes &&
           findHomes.map((home) => (
             <HomeCard key={home._id} home={home}></HomeCard>

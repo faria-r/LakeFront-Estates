@@ -1,10 +1,27 @@
 import React from 'react';
 
 const HomeCard = ({home}) => {
-    const {name} = home;
+    const {name,address,price,Homepicture} = home;
     return (
-        <div className='border p-8 '>
-            <h2 className='text-red-900'>{name}</h2>
+        <div className='border h-auto mb-8 mt-8'>
+            <div className="h-auto relative mx-auto shadow-xl">
+          <div>
+            <img
+              src={Homepicture}
+              alt=""
+              className="lg:h-[50vh] lg:w-[60vw]"
+            />
+          </div>
+          <div className=" p-6 font-sans">
+            <p className='text-2xl my-2'>{price}</p>
+            <p className="">{name}</p>
+            <p> {address}</p>
+          </div>
+          <div className="absolute top-0 right-0">
+            {" "}
+            <p className="bg-sky-900 px-16 py-2 text-white">FOR SALE</p>
+          </div>
+        </div>
         </div>
     );
 };
