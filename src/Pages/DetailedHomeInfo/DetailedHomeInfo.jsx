@@ -5,6 +5,8 @@ import { IoBedOutline } from "react-icons/io5";
 import { GiBathtub } from "react-icons/gi";
 import { FaChartArea } from "react-icons/fa6";
 import { FaExpandArrowsAlt } from "react-icons/fa";
+import Schedule from "../../Components/ReUsable/Schedule/Schedule";
+import Button from "../../Components/ReUsable/Button/Button";
 
 const DetailedHomeInfo = () => {
   const data = useLoaderData();
@@ -41,7 +43,7 @@ const DetailedHomeInfo = () => {
         <p className="text-2xl font-mono font-bold">$ {price}</p>
 
         <div className="lg:flex">
-          <div className="border-r-[1px] border-r-black w-[60vw] pr-16 py-6 text-xl font-mono text-justify">
+          <div className="border-r-[1px] border-r-black lg:w-[85vw] mx-auto pr-16 py-6 text-xl font-mono text-justify">
             <p className="my-4">{details}</p>
           </div>
           <div className="w-[30vw] mx-auto text-center">
@@ -88,6 +90,14 @@ const DetailedHomeInfo = () => {
           </div>
         </div>
       </div>
+
+      <div className="lg:flex w-[90vw] mx-auto gap-4 my-16 justify-between items-center h-auto">
+       <div> <img className="h-[90vh]" src={neighbourhoodIMG} alt="" /></div>
+        <Schedule></Schedule>
+        
+      </div>
+
+     
     </div>
   );
 };

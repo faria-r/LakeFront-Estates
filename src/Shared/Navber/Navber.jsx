@@ -39,9 +39,13 @@ const Navber = () => {
                 tabIndex={0}
                 className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-black   w-[25vw] text-white text-xl"
               >
-                <li>
-                  <a>Featured properties</a>
-                </li>
+                <Link to="/featuredHomes">
+                  {" "}
+                  <li>
+                    <a>Featured properties</a>
+                  </li>
+                </Link>
+
                 <li>
                   <a>past transaction</a>
                 </li>
@@ -147,9 +151,6 @@ const Navber = () => {
                 </li>
                 <li>
                   <a>LET'S CONNECT</a>
-                </li>
-                <li>
-                  <a>+88-01970477973</a>
                 </li>
               </ul>
             </div>
