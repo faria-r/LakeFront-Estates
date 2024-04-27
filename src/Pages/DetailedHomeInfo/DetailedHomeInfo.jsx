@@ -7,12 +7,16 @@ import { FaChartArea } from "react-icons/fa6";
 import { FaExpandArrowsAlt } from "react-icons/fa";
 import Schedule from "../../Components/ReUsable/Schedule/Schedule";
 import Button from "../../Components/ReUsable/Button/Button";
+import ContactAgent from "../../Components/ContactAgent/ContactAgent";
+import Features from "../../Components/Features&Amenitis/Features";
 
 const DetailedHomeInfo = () => {
   const data = useLoaderData();
   const homeInfo = data[0];
   const interior = homeInfo.interior[0];
-  const { bed, bath, living, acres } = interior;
+  const exterior = homeInfo.exterior[0];
+  const { bed, bath, living, acres,flooring,appliances,others } = interior;
+  const { pool, roof, heat, sewer,garage,stories } = exterior;
   const {
     name,
     _id,
@@ -97,7 +101,10 @@ const DetailedHomeInfo = () => {
         
       </div>
 
-     
+     <ContactAgent></ContactAgent>
+     <div className="my-16">
+      <Features interior={interior} exterior={exterior}></Features>
+     </div>
     </div>
   );
 };
