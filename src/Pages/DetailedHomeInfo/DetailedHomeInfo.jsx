@@ -9,6 +9,7 @@ import Schedule from "../../Components/ReUsable/Schedule/Schedule";
 import Button from "../../Components/ReUsable/Button/Button";
 import ContactAgent from "../../Components/ContactAgent/ContactAgent";
 import Features from "../../Components/Features&Amenitis/Features";
+import NeighbourHoodView from "../../Components/NeighbourHoodView/NeighbourHoodView";
 
 const DetailedHomeInfo = () => {
   const data = useLoaderData();
@@ -104,6 +105,9 @@ const DetailedHomeInfo = () => {
      <ContactAgent></ContactAgent>
      <div className="my-16">
       <Features interior={interior} exterior={exterior}></Features>
+     </div>
+     <div className="my-8">
+<NeighbourHoodView view={name}></NeighbourHoodView>
      </div>
     </div>
   );
