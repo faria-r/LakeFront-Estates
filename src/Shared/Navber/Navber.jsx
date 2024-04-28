@@ -63,6 +63,9 @@ const Navber = () => {
             <li>
               <a>+88-01970477973</a>
             </li>
+            <Link to='/login'><li>
+              <a>Login</a>
+            </li></Link>
           </ul>
         </div>
         <div className="navbar-end right-0">

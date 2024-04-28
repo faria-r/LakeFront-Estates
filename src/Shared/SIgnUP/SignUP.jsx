@@ -1,0 +1,72 @@
+import React, { useContext } from "react";
+import { useForm } from "react-hook-form";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthProvider";
+
+const SignUP = () => {
+  const { register, handleSubmit } = useForm();
+  const { createUser } = useContext(AuthContext);
+const navigate = useNavigate();
+
+  //function to create user with email password
+  const handleCreateUser = (data) => {
+    createUser(data.email, data.password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+      navigate('/login')
+  };
+  return (
+    <div className="py-16 bg-sky-950 pb-16">
+      <form
+        onSubmit={handleSubmit(handleCreateUser)}
+        className=" border shadow-xl border-sky-950 bg-transparent lg:w-[30vw] mb-16 mx-auto py-8  px-8 bg-white"
+      >
+        <h2 className="text-3xl text-center mb-8 font-mono uppercase">
+          Register Now
+        </h2>
+        <div>
+          <input
+            className="w-full my-2 p-4 border"
+            type="text"
+            {...register("name")}
+            placeholder="Name"
+          />
+        </div>
+        <div>
+          <input
+            className="w-full my-2 p-4 border"
+            type="email"
+            {...register("email")}
+            placeholder="Email"
+          />
+        </div>
+        <div>
+          <input
+            className="w-full p-4 border"
+            type="password"
+            {...register("password")}
+            placeholder="Password"
+          />
+        </div>
+
+        <input
+          className="btn mt-6 w-full bg-sky-950 text-white px-16 py-2"
+          type="submit"
+        />
+        <p className="text-center my-2">
+          Already Have An Account?{" "}
+          <Link className="text-blue-600 underline" to="/login">
+            Login Now
+          </Link>
+        </p>
+      </form>
+    </div>
+  );
+};
+
+export default SignUP;
