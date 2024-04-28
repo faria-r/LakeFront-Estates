@@ -1,12 +1,17 @@
 import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
+import { GoogleAuthProvider } from "firebase/auth";
+
 
 const Login = () => {
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
-  const {signIn} = useContext(AuthContext);
+  const location = useLocation();
+  const from = location?.from?.pathname || '/'
+  const {signIn,loginWithGoogle} = useContext(AuthContext);
+  const provider = new GoogleAuthProvider();
   //function to login a user
   const handleLogin = (data) =>{
     signIn(data.email,data.password)
@@ -15,7 +20,14 @@ const Login = () => {
         console.log(user)
     })
     .catch(error => console.log(error))
-   navigate('/')
+    navigate(from,{replace:true})
+  }
+  //function to login with google
+  const handleLoginWithGoogle = () =>{
+    loginWithGoogle(provider)
+    .then(result => console.log(result.user))
+    .catch(error => console.log(error))
+    navigate(from,{replace:true})
   }
   return (
     <div className="py-16 bg-sky-950 pb-16">
@@ -49,10 +61,8 @@ const Login = () => {
         />
 <p className="text-center my-2">Don't Have An Account? <Link className="text-blue-600 underline" to='/signup'>Register Now</Link></p>
         <div className="divider">OR</div>
-        <input
-          className="btn my-2 w-full bg-sky-950 text-white px-16 py-2"
-          type="submit" value='Log In With Google'
-        /> <br />
+        <button onClick={handleLoginWithGoogle} className="btn my-2 w-full bg-sky-950 text-white px-16 py-2"
+          >Log In With Google</button> <br />
         <input
           className="btn w-full bg-sky-950 text-white px-16 py-2"
           type="submit" value='Log In With Facebook'

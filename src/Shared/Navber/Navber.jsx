@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FcMenu } from "react-icons/fc";
 import DropdownContent from "../../Components/DropdownContent/DropdownContent";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthProvider";
 const Navber = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const handleLogOut = () => [
+    logOut()
+      .then(() => {})
+      .catch((e) => console.log(e)),
+  ];
   return (
     <div className="absolute top-0 bg-transparent z-10 w-full pt-8">
       <div className="navbar ">
@@ -63,9 +70,23 @@ const Navber = () => {
             <li>
               <a>+88-01970477973</a>
             </li>
-            <Link to='/login'><li>
-              <a>Login</a>
-            </li></Link>
+            {user ? (
+              <li>
+                {" "}
+                <a
+                  onClick={handleLogOut}
+                  className="btn -mt-2 bg-transparent border-none text-white"
+                >
+                  LogOut
+                </a>
+              </li>
+            ) : (
+              <Link to="/login">
+                <li>
+                  <a>Login</a>
+                </li>
+              </Link>
+            )}
           </ul>
         </div>
         <div className="navbar-end right-0">

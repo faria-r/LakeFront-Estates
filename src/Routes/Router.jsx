@@ -7,6 +7,7 @@ import DetailedHomeInfo from "../Pages/DetailedHomeInfo/DetailedHomeInfo";
 import Login from "../Shared/Login/Login";
 import SignUP from "../Shared/SIgnUP/SignUP";
 import Error from "../Pages/Error/Error";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
 
 export const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'/home/:id',
-        element:<DetailedHomeInfo></DetailedHomeInfo>,
+        element:<PrivateRoute><DetailedHomeInfo></DetailedHomeInfo></PrivateRoute>,
         loader:({params}) => fetch(`https://lake-front-estates-server.vercel.app/home/${params.id}`)
       }
     ],
