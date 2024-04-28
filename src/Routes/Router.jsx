@@ -8,11 +8,13 @@ import Login from "../Shared/Login/Login";
 import SignUP from "../Shared/SIgnUP/SignUP";
 import Error from "../Pages/Error/Error";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import DisplayError from "../Pages/DisplayError/DisplayError";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <DisplayError></DisplayError>,
     children: [
       {
         path: "/",
@@ -45,7 +47,8 @@ export const router = createBrowserRouter([
     element: <SignUP></SignUP>,
   },
   {
-    path: "*",
-    element: <Error></Error>,
-  },
+    path:'*',
+    element:<Error></Error>,
+    errorElement:<DisplayError></DisplayError>
+      }
 ]);
