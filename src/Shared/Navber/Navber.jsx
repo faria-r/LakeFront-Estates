@@ -12,10 +12,10 @@ const Navber = () => {
       .catch((e) => console.log(e)),
   ];
   return (
-    <div className="absolute top-0 bg-transparent z-10 w-full pt-8">
+    <div className="absolute top-0 bg-transparent hover:bg-sky-950 z-10 w-full pt-8">
       <div className="navbar ">
         <div className="navbar-start">
-          <Link to="/" className="text-white text-xl font-mono lg:ml-16">
+          <Link to="/" className="text-white text-xl font-mono lg:ml-8 ">
             <img src={logo} className="w-[30vw] lg:w-[12vw]" alt="" />
           </Link>
         </div>
@@ -87,6 +87,16 @@ const Navber = () => {
                 </li>
               </Link>
             )}
+            {
+              user && <div className="avatar online">
+              <div className="w-12 rounded-full">
+                <img src={user?.photoURL} />
+                <p>{user?.displayName}</p>
+              </div>
+            </div>
+            }
+            
+
           </ul>
         </div>
         <div className="navbar-end right-0">
