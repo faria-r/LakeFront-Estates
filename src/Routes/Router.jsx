@@ -9,6 +9,7 @@ import SignUP from "../Shared/SIgnUP/SignUP";
 import Error from "../Pages/Error/Error";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import DisplayError from "../Pages/DisplayError/DisplayError";
+import DashBoard from "../LayOut/DashBoard/DashBoard";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,16 @@ export const router = createBrowserRouter([
   {
     path: "/signup",
     element: <SignUP></SignUP>,
+  },
+  {
+    path:'dashboard',
+    element:<DashBoard></DashBoard>,
+    errorElement:<DisplayError></DisplayError>,
+    children:[
+      {
+        
+      },
+    ]
   },
   {
     path:'*',

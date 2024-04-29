@@ -91,7 +91,7 @@ const Navber = () => {
               user && <div className="avatar online">
               <div className="w-12 rounded-full">
                 <img src={user?.photoURL} />
-                <p>{user?.displayName}</p>
+                {/* <p>{user?.displayName}n</p> */}
               </div>
             </div>
             }
@@ -118,33 +118,9 @@ const Navber = () => {
               ></label>
               <ul className="menu p-4 w-96 min-h-full bg-base-200 text-base-content">
                 {/* Sidebar content here */}
-                <details className="dropdown">
-                  <summary className="m-1">
-                    <li>
-                      <a>HOME SEARCH</a>
-                    </li>
-                  </summary>
-                  <ul className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-white  w-[25vw] text-gray-500">
-                    <li>
-                      <a>lake oconee</a>
-                    </li>
-                    <li>
-                      <a>raynoldes lake oconee</a>
-                    </li>
-                    <li>
-                      <a>lake oconee condos</a>
-                    </li>
-                    <li>
-                      <a>lake oconee luxury homes</a>
-                    </li>
-                    <li>
-                      <a>raynoldes lake oconee luxury homes</a>
-                    </li>
-                    <li>
-                      <a>mls home search</a>
-                    </li>
-                  </ul>
-                </details>
+                <div className="dropdown">
+                 <DropdownContent></DropdownContent>
+                </div>
                 <details className="dropdown">
                   <summary className="m-1">
                     {" "}

@@ -19,7 +19,7 @@ const Testimonials = () => {
   const {data} = useAxios('testimonials')
     return (
         <>
-        <div className='w-[80vw] mx-auto mt-24 items-center lg:h-[70vh] mb-24'>
+        <div className='w-[80vw] mx-auto mt-24 items-center h-[80vh] lg:h-[70vh] mb-24'>
             <h2 className='text-center font-mono text-5xl mt-16 mb-16'>Testimonials</h2>
         <Swiper
           style={{
@@ -47,10 +47,10 @@ const Testimonials = () => {
 
           {
             data.map(each =>  <SwiperSlide key={each._id} each={each} className='text-center'>
-            <div className="title" data-swiper-parallax="-300">
+            <div className="text-2xl" data-swiper-parallax="-300">
               {each.name}
             </div>
-            <div className="mt-4" data-swiper-parallax="-200">
+            <div className="lg:mt-4" data-swiper-parallax="-200">
               {each.title}
             </div>
             <div className="w-3/4 line-clamp-5 mx-auto my-6 text-justify" data-swiper-parallax="-100">
