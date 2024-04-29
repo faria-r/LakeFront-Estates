@@ -32,7 +32,7 @@ const Footer = () => {
             </p>
             <p>
               ADDRESS <br />
-              FARIARAHMAN622@GMAIL.COM
+              02346 JOHNSBARG UTC- LAKE RY
             </p>
           </div>
           <p className="lg:ml-[25%]">QUICK LINKS</p>
@@ -48,7 +48,6 @@ const Footer = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 p-4 w-[90vw] ">
-        {/* <div className="text-2xl">Lakefront Estates</div> */}
         <div className="text-2xl bg-transparent"><img src={logo} className=" w-36 bg-transparent"alt="" /></div>
         <div className="lg:-ml-[25%]">
           <h2 className="my-4">

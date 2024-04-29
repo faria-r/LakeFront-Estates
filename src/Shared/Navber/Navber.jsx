@@ -87,19 +87,17 @@ const Navber = () => {
                 </li>
               </Link>
             )}
-            {
-              user && <div className="avatar online">
-              <div className="w-12 rounded-full">
-                <img src={user?.photoURL} />
-                {/* <p>{user?.displayName}n</p> */}
+            {user && (
+              <div className="avatar online">
+                <div className="w-12 rounded-full">
+                  <img src={user?.photoURL} />
+                  {/* <p>{user?.displayName}n</p> */}
+                </div>
               </div>
-            </div>
-            }
-            
-
+            )}
           </ul>
         </div>
-        <div className="navbar-end right-0">
+        <div className="navbar-end right-0 ">
           <div className="drawer drawer-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
@@ -110,18 +108,26 @@ const Navber = () => {
                 <FcMenu className="text-white" />
               </label>
             </div>
-            <div className="drawer-side">
+            <div className="drawer-side ">
               <label
                 htmlFor="my-drawer-4"
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu p-4 w-96 min-h-full bg-base-200 text-base-content">
+              <ul className="menu p-4 w-96 min-h-full bg-sky-950  text-white">
                 {/* Sidebar content here */}
-                <div className="dropdown">
-                 <DropdownContent></DropdownContent>
+                <div className="mb-6">
+                  <Link
+                    to="/"
+                    className="text-white text-xl font-mono lg:ml-8 "
+                  >
+                    <img src={logo} className="w-[30vw] lg:w-[12vw]" alt="" />
+                  </Link>
                 </div>
-                <details className="dropdown">
+                <div className="dropdown">
+                  <DropdownContent></DropdownContent>
+                </div>
+                <div className="dropdown dropdown-hover">
                   <summary className="m-1">
                     {" "}
                     <li>
@@ -136,8 +142,8 @@ const Navber = () => {
                       <a>Testimonials</a>
                     </li>
                   </ul>
-                </details>
-                <details className="dropdown">
+                </div>
+                <div className="dropdown dropdown-hover">
                   <summary className="m-1 uppercase">
                     {" "}
                     <li>
@@ -155,13 +161,30 @@ const Navber = () => {
                       <a>property videos</a>
                     </li>
                   </ul>
-                </details>
+                </div>
                 <li>
                   <a>BLOG</a>
                 </li>
                 <li>
                   <a>LET'S CONNECT</a>
                 </li>
+                {user ? (
+              <li>
+                {" "}
+                <a
+                  onClick={handleLogOut}
+                  className="btn bg-transparent border-white w-24 ml-4 my-2 text-white"
+                >
+                  LogOut
+                </a>
+              </li>
+            ) : (
+              <Link to="/login">
+                <li>
+                  <a>Login</a>
+                </li>
+              </Link>
+            )}
               </ul>
             </div>
           </div>
