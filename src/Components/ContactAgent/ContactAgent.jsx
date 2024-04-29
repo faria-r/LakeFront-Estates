@@ -4,7 +4,7 @@ import Button from "../ReUsable/Button/Button";
 const ContactAgent = () => {
   return (
     <div className="w-auto bg-sky-950 text-white lg:h-[60vh] ">
-    <div className="w-[90vw] lg:flex justify-center items-center p-12">
+    <div className="w-[90vw] mx-auto lg:flex justify-center items-center p-12">
     <div className="mr-16">
         <img className='h-[40vh]'src="https://i.ibb.co/9Hdpnp0/Riezl-Baker-headshot.jpg" alt="" />
       </div>

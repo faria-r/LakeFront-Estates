@@ -6,7 +6,7 @@ const Newsletter = () => {
       <h1 className="lg:text-4xl font-semibold pt-8">
         Receive exclusive off-market listings in your inbox.
       </h1>
-      <div className="mt-8 lg:flex justify-center items-center w-[80vw] mx-auto p-4">
+      <div className="mt-8  lg:flex justify-center items-center w-[80vw] mx-auto p-4">
         <div className="sm:mb-8 lg:mb-0">
           <input
             className="mr-4 bg-transparent lg:w-[15vw]  border-b-[1px] border-gray-500  text-xl text-start"

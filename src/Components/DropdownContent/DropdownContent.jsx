@@ -11,7 +11,8 @@ const DropdownContent = () => {
       </li>
       <ul
         tabIndex={0}
-        className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-black   w-[25vw] text-white text-xl"
+        className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-black w-auto  
+        lg:w-[25vw] text-white text-xl"
       >
         {data &&
           data.map((item) => (

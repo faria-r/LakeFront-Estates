@@ -4,7 +4,7 @@ const WorkWithAuthor = () => {
   return (
     <div className="bg-black h-auto border mt-24">
  <div
-      className="h-auto w-auto bg-fixed "
+      className="h-[100%] w-auto bg-fixed "
       style={{
         backgroundImage: `url("https://i.ibb.co/K20G808/no.jpg")`,
        backgroundRepeat:'no-repeat',

@@ -43,12 +43,17 @@ const DetailedHomeInfo = () => {
         <h2 className="uppercase text-3xl font-mono mt-12">{name}</h2>
         <h2 className="uppercase text-xl font-mono my-2 pb-8">{address}</h2>
       </div>
+    
+
+
       <div className="w-[70vw]  border-b-[1px] border-b-black"></div>
-      <div className="w-[90vw] mx-auto p-6">
+
+
+      <div className="lg:w-[90vw] mx-auto p-6">
         <p className="text-2xl font-mono font-bold">$ {price}</p>
 
         <div className="lg:flex">
-          <div className="border-r-[1px] border-r-black lg:w-[85vw] mx-auto pr-16 py-6 text-xl font-mono text-justify">
+          <div className="border-r-[1px] border-r-black lg:w-[85vw] mx-auto lg:pr-16 py-6 text-xl font-mono text-justify">
             <p className="my-4">{details}</p>
           </div>
           <div className="w-[30vw] mx-auto text-center">
@@ -96,9 +101,9 @@ const DetailedHomeInfo = () => {
         </div>
       </div>
 
-      <div className="lg:flex w-[90vw] mx-auto gap-4 my-16 justify-between items-center h-auto">
-       <div> <img className="h-[90vh]" src={neighbourhoodIMG} alt="" /></div>
-        <Schedule></Schedule>
+      <div className="grid w-[90vw] mx-auto sm:grid-cols-1 lg:grid-cols-2  my-16 justify-between items-center h-auto">
+       <div> <img src={neighbourhoodIMG} alt="" /></div>
+       <div> <Schedule></Schedule></div>
         
       </div>
 

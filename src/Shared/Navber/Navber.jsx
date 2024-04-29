@@ -14,14 +14,15 @@ const Navber = () => {
   return (
     <div className="absolute top-0 bg-transparent hover:bg-sky-950 z-10 w-full pt-8">
       <div className="navbar ">
+
         <div className="navbar-start">
           <Link to="/" className="text-white text-xl font-mono lg:ml-8 ">
-            <img src={logo} className="w-[30vw] lg:w-[12vw]" alt="" />
+            <img src={logo} className="w-[30vw] lg:w-[10vw]" alt="" />
           </Link>
         </div>
         <div className="navbar-center  hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-white font-semibold opacity-[.7] font-mono">
-            <DropdownContent></DropdownContent>
+         <DropdownContent></DropdownContent>
             <div className="dropdown dropdown-hover">
               <li>
                 <a>ABOUT FARIA</a>
@@ -98,7 +99,7 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end right-0 ">
-          <div className="drawer drawer-end">
+          <div className="drawer  drawer-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
               <label
@@ -114,27 +115,30 @@ const Navber = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu p-4 w-96 min-h-full bg-sky-950  text-white">
+              <ul className="menu p-4 min-h-full bg-sky-950  lg:w-[30vw]  text-white">
                 {/* Sidebar content here */}
                 <div className="mb-6">
                   <Link
                     to="/"
                     className="text-white text-xl font-mono lg:ml-8 "
                   >
-                    <img src={logo} className="w-[30vw] lg:w-[12vw]" alt="" />
+                    <img src={logo} className="w-[20vw] lg:w-[12vw]" alt="" />
                   </Link>
                 </div>
-                <div className="dropdown">
+                <details className="dropdown dropdown-hover w-auto">
+                  <summary>
                   <DropdownContent></DropdownContent>
-                </div>
-                <div className="dropdown dropdown-hover">
+                  </summary>
+              
+                </details>
+                <details className="dropdown dropdown-hover">
                   <summary className="m-1">
                     {" "}
                     <li>
                       <a>ABOUT FARIA</a>
                     </li>
                   </summary>
-                  <ul className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-white  w-[25vw] text-gray-500">
+                  <ul className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-white  w-auto text-gray-500">
                     <li>
                       <a>Meet Faria</a>
                     </li>
@@ -142,15 +146,15 @@ const Navber = () => {
                       <a>Testimonials</a>
                     </li>
                   </ul>
-                </div>
-                <div className="dropdown dropdown-hover">
+                </details>
+                <details className="dropdown dropdown-hover">
                   <summary className="m-1 uppercase">
                     {" "}
                     <li>
                       <a>properties</a>
                     </li>
                   </summary>
-                  <ul className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-white  w-[25vw] text-gray-500">
+                  <ul className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-white  w-auto text-gray-500">
                     <li>
                       <a>Featured properties</a>
                     </li>
@@ -161,7 +165,7 @@ const Navber = () => {
                       <a>property videos</a>
                     </li>
                   </ul>
-                </div>
+                </details>
                 <li>
                   <a>BLOG</a>
                 </li>
