@@ -11,6 +11,7 @@ import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import DisplayError from "../Pages/DisplayError/DisplayError";
 import DashBoard from "../LayOut/DashBoard/DashBoard";
 import DashBoardHomes from "../Pages/DashBoardHomes/DashBoardHomes";
+import AllUsers from "../Pages/AllUsers/AllUsers";
 
 export const router = createBrowserRouter([
   {
@@ -56,6 +57,11 @@ export const router = createBrowserRouter([
       {
         path:'/dashboard/homes',
         element:<DashBoardHomes></DashBoardHomes>
+      },
+      {
+        path:'/dashboard/users',
+        element:<AllUsers></AllUsers>,
+        loader:(()=>fetch('https://lake-front-estates-server.vercel.app/users'))
       },
     ]
   },

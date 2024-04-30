@@ -1,6 +1,8 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Link, NavLink, Outlet } from 'react-router-dom';
 import Navber from '../../Shared/Navber/Navber';
+import { FaHome } from 'react-icons/fa';
+import { AiFillHome } from 'react-icons/ai';
 
 const DashBoard = () => {
     return (
@@ -11,11 +13,13 @@ const DashBoard = () => {
               <div className='flex text-white'>
              
             {/* sidebar content */}
-            <div className='w-64 min-h-[100vh] bg-sky-950 mt-28'>
+            <div className='w-64 min-h-[100vh] bg-sky-600 mt-28'>
                 <ul className='menu p-4'>
-                    <li className='rounded-none bg-white mt-4 text-xl'><NavLink to='/dashboard/homes' > Homes</NavLink></li>
-                    <li className='rounded-none bg-white mt-4 text-xl'><NavLink to='/dashboard/homes' > Bookings</NavLink></li>
-                    <li className='rounded-none bg-white mt-4 text-xl'><NavLink to='/dashboard/homes' > Schedules</NavLink></li>
+                <Link to='/dashboard/homes'> <li className='rounded-none mt-4 text-black text-xl'>  Home's</li> </Link>
+                   <Link to='/dashboard/users'> <li className='rounded-none mt-4 text-xl'>User's</li></Link>
+ 
+                   <Link to='/dashboard/users'> <li className='rounded-none mt-4 text-xl'>Booking's</li></Link>
+                   <Link to='/dashboard/users'> <li className='rounded-none mt-4 text-xl'>Schedule's</li></Link>
                 </ul>
             </div>
             <div className='flex mt-28 bg-white w-full'>
