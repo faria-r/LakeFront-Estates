@@ -3,10 +3,12 @@ import Swal from 'sweetalert2'
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
+import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
 
 const SignUP = () => {
   const { register,reset, handleSubmit } = useForm();
   const { createUser,updateUserProfile } = useContext(AuthContext);
+  const axiosPublic = useAxiosPublic()
 const navigate = useNavigate();
 
   //function to create user with email password
@@ -18,30 +20,46 @@ const navigate = useNavigate();
         updateUserProfile(data.name,data.photoURL)
         .then(()=>{
           console.log('user profile is updated')
-          reset();
-          Swal.fire({
-            title: "Updated User Information",
-            showClass: {
-              popup: `
-                animate__animated
-                animate__fadeInUp
-                animate__faster
-              `
-            },
-            hideClass: {
-              popup: `
-                animate__animated
-                animate__fadeOutDown
-                animate__faster
-              `
+          //create user entry in the database
+          const userInfo = {
+            name:data.name,
+            email:data.email
+          }
+          axiosPublic.post('/users',userInfo)
+          .then(res => {
+            console.log(res.data)
+            if(res.data.insertedId){
+              reset();
+              Swal.fire({
+                title: "Updated User Information",
+                showClass: {
+                  popup: `
+                    animate__animated
+                    animate__fadeInUp
+                    animate__faster
+                  `
+                },
+                hideClass: {
+                  popup: `
+                    animate__animated
+                    animate__fadeOutDown
+                    animate__faster
+                  `
+                }
+              });
+              navigate('/login')
             }
-          });
+          console.log('added in db')
+          })
+          .catch(e => console.log(e))
+     
+        
         })
       })
       .catch((error) => {
         console.log(error);
       });
-      navigate('/login')
+      
   };
   return (
     <div className="py-16 bg-sky-950 pb-16">

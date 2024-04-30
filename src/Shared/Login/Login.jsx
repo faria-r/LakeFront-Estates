@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
+import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
 
 
 const Login = () => {
@@ -12,6 +13,7 @@ const Login = () => {
   const from = location?.from?.pathname || '/'
   const {signIn,loginWithGoogle} = useContext(AuthContext);
   const provider = new GoogleAuthProvider();
+  const axiosPublic = useAxiosPublic();
   //function to login a user
   const handleLogin = (data) =>{
     signIn(data.email,data.password)
@@ -25,9 +27,22 @@ const Login = () => {
   //function to login with google
   const handleLoginWithGoogle = () =>{
     loginWithGoogle(provider)
-    .then(result => console.log(result.user))
+    .then(result => {
+
+      console.log(result.user)
+      const userInfo = {
+        email:result.user?.email,
+        name:result.user?.displayName
+      }
+      axiosPublic.post('/users',userInfo)
+      .then(res=>{
+      console.log(res.data);
+      navigate(from,{replace:true})
+      })
+    }
+    )
     .catch(error => console.log(error))
-    navigate(from,{replace:true})
+  
   }
   return (
     <div className="py-16 bg-sky-950 pb-16">

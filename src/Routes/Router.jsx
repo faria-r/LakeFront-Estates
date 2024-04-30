@@ -10,6 +10,7 @@ import Error from "../Pages/Error/Error";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import DisplayError from "../Pages/DisplayError/DisplayError";
 import DashBoard from "../LayOut/DashBoard/DashBoard";
+import DashBoardHomes from "../Pages/DashBoardHomes/DashBoardHomes";
 
 export const router = createBrowserRouter([
   {
@@ -53,7 +54,8 @@ export const router = createBrowserRouter([
     errorElement:<DisplayError></DisplayError>,
     children:[
       {
-        
+        path:'/dashboard/homes',
+        element:<DashBoardHomes></DashBoardHomes>
       },
     ]
   },
