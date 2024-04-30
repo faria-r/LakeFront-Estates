@@ -60,8 +60,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'/dashboard/users',
-        element:<AllUsers></AllUsers>,
-        loader:(()=>fetch('https://lake-front-estates-server.vercel.app/users'))
+        element:<AllUsers></AllUsers>
       },
     ]
   },

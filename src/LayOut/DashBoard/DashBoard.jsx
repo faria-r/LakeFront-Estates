@@ -6,6 +6,7 @@ import { AiFillHome, AiTwotoneSchedule } from "react-icons/ai";
 import { FaHouse } from "react-icons/fa6";
 import { ImUsers } from "react-icons/im";
 import { MdOutlineBookmarkAdded } from "react-icons/md";
+import { BsFillHouseAddFill } from "react-icons/bs";
 
 const DashBoard = () => {
   const isAdmin = true;
@@ -42,6 +43,12 @@ const DashBoard = () => {
                   {" "}
                   <Link to="/dashboard/homes">
                     <AiTwotoneSchedule /> Schedule's
+                  </Link>
+                </li>
+                <li className="rounded-none  text-white text-xl">
+                  {" "}
+                  <Link to="/dashboard/homes">
+                  <BsFillHouseAddFill /> Add Home
                   </Link>
                 </li>
               </>
