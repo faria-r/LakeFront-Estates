@@ -4,7 +4,7 @@ import useAxiosSecure from './useAxiosPublic/useAxiosSecure';
 
 const useTanstack = () => {
     const axiosSecure = useAxiosSecure();
-    const {data: users=[]} = useQuery({
+    const {refetch,data: users=[]} = useQuery({
         queryKey:['user'],
         queryFn:async ()=>{
             const res = await axiosSecure.get('/users')
@@ -12,7 +12,7 @@ const useTanstack = () => {
         } 
 
     })
-    return [users]
+    return [users,refetch]
     
 };
 

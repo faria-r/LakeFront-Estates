@@ -2,16 +2,45 @@ import React from "react";
 import { useLoaderData } from "react-router-dom";
 import useTanstack from "../../Hooks/useTanstack";
 import { ImUsers } from "react-icons/im";
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
 import { FaUsers } from "react-icons/fa";
+import { RiDeleteBin2Line } from "react-icons/ri";
+import Swal from "sweetalert2";
+import useAxiosSecure from "../../Hooks/useAxiosPublic/useAxiosSecure";
 const AllUsers = () => {
-  const [user] = useTanstack();
-  
+  const [user, refetch] = useTanstack();
+  const axiosSecure = useAxiosSecure();
+  const handleDelete = (user) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        axiosSecure.delete(`users/${user._id}`).then((res) => {
+          if (res.data.deletedCount > 0) {
+            refetch();
+            Swal.fire({
+              title: "Deleted!",
+              text: "User has been deleted.",
+              icon: "success",
+            });
+          }
+        });
+      }
+    });
+  };
   return (
     <div className="text-black max-w-[60vw] mx-auto lg:mt-16">
-    <div className="w-[15%] mx-auto text-center  mb-6  text-sky-950 text-3xl">
-   <h2 className="  text-sky-900 "><FaUsers /></h2>
-    </div>
+      <div className="w-[15%] mx-auto text-center  mb-6  text-sky-950 text-3xl">
+        <h2 className="  text-sky-900 ">
+          <FaUsers />
+        </h2>
+      </div>
 
       <div>
         <div className="overflow-x-auto">
@@ -31,11 +60,9 @@ const AllUsers = () => {
               </tr>
             </thead>
             <tbody>
-              {user.map((u,index) => (
+              {user.map((u, index) => (
                 <tr>
-                  <th>
-                    {index+1}
-                  </th>
+                  <th>{index + 1}</th>
                   <td>
                     <div className="flex items-center gap-3">
                       <div className="avatar">
@@ -52,9 +79,16 @@ const AllUsers = () => {
                     </div>
                   </td>
                   <td>{u.email}</td>
-                  <td><ImUsers /></td>
+                  <td className="text-xl">
+                    <ImUsers />
+                  </td>
                   <th>
-                    <button className="btn btn-ghost btn-xs">Make Admin</button>
+                    <button
+                      onClick={()=>handleDelete(u)}
+                      className="btn btn-ghost btn-xs text-xl"
+                    >
+                      <RiDeleteBin2Line />
+                    </button>
                   </th>
                 </tr>
               ))}
