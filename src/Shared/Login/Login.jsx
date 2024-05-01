@@ -4,6 +4,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
 import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
+import { IoIosLogIn } from "react-icons/io";
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebookF } from "react-icons/fa6";
 
 
 const Login = () => {
@@ -45,15 +48,26 @@ const Login = () => {
     .catch(error => console.log(error))
   
   }
+  const myStyle = {
+    backgroundImage:
+        "url('https://i.ibb.co/Xp2qtXb/ej.jpg')",
+    minHeight: "100vh",
+
+   
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+};
   return (
-    <div className="py-16 bg-sky-950 pb-16">
+    <div className="py-12 pb-28" style={myStyle}>
       <form
         onSubmit={handleSubmit(handleLogin)}
-        className=" border shadow-xl border-sky-950 bg-transparent lg:w-[30vw] mb-16 mx-auto py-8  px-8 bg-white"
+        className=" border shadow-xl border-sky-950 bg-transparent lg:w-[30vw] mb-16 mx-auto py-8  px-8 bg-white opacity-70"
       >
-        <h2 className="text-3xl text-center mb-8 font-mono uppercase">
-          Login Now
+        <div className="">
+        <h2 className="text-5xl w-8 mx-auto text-center font-mono uppercase">
+        <IoIosLogIn />
         </h2>
+        </div>
         <div>
           <input
             className="w-full my-2 p-4 border"
@@ -77,12 +91,11 @@ const Login = () => {
         />
 <p className="text-center my-2">Don't Have An Account? <Link className="text-blue-600 underline" to='/signup'>Register Now</Link></p>
         <div className="divider">OR</div>
-        <button onClick={handleLoginWithGoogle} className="btn my-2 w-full bg-sky-950 text-white px-16 py-2"
-          >Log In With Google</button> <br />
-        <input
-          className="btn w-full bg-sky-950 text-white px-16 py-2"
-          type="submit" value='Log In With Facebook'
-        />
+        <button onClick={handleLoginWithGoogle} className="btn my-2 w-full bg-sky-950 text-white text-xl px-16 py-2"
+          >Log In With <FcGoogle /></button> <br />
+          <button className="btn my-2 w-full text-xl bg-sky-950 text-white px-16 py-2"
+          >Log In With <FaFacebookF /> </button> 
+        
       </form>
     </div>
   );
