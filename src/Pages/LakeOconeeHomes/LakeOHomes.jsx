@@ -39,20 +39,6 @@ const LakeOHomes = () => {
           value={priceFilter}
           onChange={(e) => setPriceFilter(e.target.value)}
         />
-        {/* <input
-          type="number"
-          className="w-52 border-b-[1px]"
-          placeholder="BATHROOMS"
-          value={priceFilter}
-          onChange={(e) => setPriceFilter(e.target.value)}
-        />
-        <input
-          type="number"
-          className="w-52 border-b-[1px]"
-          placeholder="BEDROOMS"
-          value={priceFilter}
-          onChange={(e) => setPriceFilter(e.target.value)}
-        /> */}
       </div>
       <div className=" w-[90vw] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 my-16">
         {filteredHomes.map((home) => (

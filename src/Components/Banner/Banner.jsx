@@ -2,7 +2,10 @@ import React from "react";
 import bgVideo from "../../assets/estate.mp4";
 import black from "../../assets/black.jpg";
 import Navber from "../../Shared/Navber/Navber";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Banner = () => {
+  AOS.init();
   return (
     <div className="bg-black ">
       <video
@@ -13,7 +16,7 @@ const Banner = () => {
         poster={black}
         className="h-[100vh] w-[100%] object-cover opacity-[0.7]"
       ></video>
-      <div className="w-[90%]  text-white  text-center absolute top-[32%] left-0 right-0 mx-auto">
+      <div data-aos="fade-left" data-aos-duration="2000" className="w-[90%]  text-white  text-center absolute top-[32%] left-0 right-0 mx-auto">
         <h2 className="  my-4 text-[30px] lg:text-[70px]  font-semibold font-mono">
           Lakefront Real Estate
         </h2>

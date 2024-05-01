@@ -13,7 +13,8 @@ const Navber = () => {
   ];
   return (
     <div className="absolute top-0 bg-transparent hover:bg-sky-950 z-10 w-full pt-8">
-      <div className="navbar ">
+      <div className="navbar" data-aos="fade-down"
+    data-aos-duration="3000">
 
         <div className="navbar-start">
           <Link to="/" className="text-white text-xl font-mono lg:ml-8 ">

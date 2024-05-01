@@ -1,9 +1,15 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const FeaturedHomes = ({ home }) => {
+  AOS.init();
+
   const { name, address, price, Homepicture } = home;
   return (
-    <div className=" h-auto lg:h-[90vh] relative">
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" className=" h-auto lg:h-[90vh] relative">
       <div>
         <img src={Homepicture} alt="" className="lg:h-[60vh] lg:w-[70vw]" />
       </div>

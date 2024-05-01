@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
 const HomeCard = ({home}) => {
+  AOS.init();
     const {_id,name,address,price,Homepicture} = home;
     return (
-        <div className='h-auto mb-8 mt-8'>
+        <div data-aos="zoom-in-up"data-aos-duration="3000" className='h-auto mb-8 mt-8'>
             <Link to={`/home/${_id}`}>
             <div className="h-auto relative mx-auto shadow-xl">
           <div>
