@@ -7,6 +7,7 @@ import { FaUsers } from "react-icons/fa";
 import { RiDeleteBin2Line } from "react-icons/ri";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../Hooks/useAxiosPublic/useAxiosSecure";
+import { MdAdminPanelSettings } from "react-icons/md";
 const AllUsers = () => {
   const [user, refetch] = useTanstack();
   const axiosSecure = useAxiosSecure();
@@ -34,8 +35,23 @@ const AllUsers = () => {
       }
     });
   };
+  //make admin
+
+  const handleMakeAdmin = (user) => {
+    axiosSecure.patch(`/users/admin/${user._id}`).then((res) => {
+      console.log(res.data);
+      if (res.data.modifiedCount > 0) {
+        refetch();
+        Swal.fire({
+          title: "Success!",
+          text: `${user.name} is Admin Now`,
+          icon: "success",
+        });
+      }
+    });
+  };
   return (
-    <div className="text-black max-w-[60vw] mx-auto lg:mt-16">
+    <div className="text-black max-w-[60vw] mx-auto lg:mt-12">
       <div className="w-[15%] mx-auto text-center  mb-6  text-sky-950 text-3xl">
         <h2 className="  text-sky-900 ">
           <FaUsers />
@@ -43,8 +59,8 @@ const AllUsers = () => {
       </div>
 
       <div>
-        <div className="overflow-x-auto">
-          <table className="table">
+        <div className="overflow-x-auto shadow-xl p-4 mb-8">
+          <table className="table ">
             {/* head */}
             <thead>
               <tr>
@@ -61,7 +77,7 @@ const AllUsers = () => {
             </thead>
             <tbody>
               {user.map((u, index) => (
-                <tr>
+                <tr key={u._id}>
                   <th>{index + 1}</th>
                   <td>
                     <div className="flex items-center gap-3">
@@ -80,11 +96,19 @@ const AllUsers = () => {
                   </td>
                   <td>{u.email}</td>
                   <td className="text-xl">
-                    <ImUsers />
+                    {
+                      u.role === 'admin' ?  <MdAdminPanelSettings /> : <button
+                      onClick={() => handleMakeAdmin(u)}
+                      className="btn btn-ghost btn-xs text-xl"
+                    >
+                      <ImUsers />
+                    </button>
+                    }
                   </td>
+
                   <th>
                     <button
-                      onClick={()=>handleDelete(u)}
+                      onClick={() => handleDelete(u)}
                       className="btn btn-ghost btn-xs text-xl"
                     >
                       <RiDeleteBin2Line />
