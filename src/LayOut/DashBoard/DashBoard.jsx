@@ -7,9 +7,10 @@ import { FaHouse } from "react-icons/fa6";
 import { ImUsers } from "react-icons/im";
 import { MdOutlineBookmarkAdded } from "react-icons/md";
 import { BsFillHouseAddFill } from "react-icons/bs";
+import useAdmin from "../../Hooks/useAdmin";
 
 const DashBoard = () => {
-  const isAdmin = true;
+  const [isAdmin]= useAdmin();
   return (
     <div className="w-auto min-h-[100vh] bg-sky-950 ">
       <div className="">
