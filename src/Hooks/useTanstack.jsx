@@ -7,11 +7,7 @@ const useTanstack = () => {
     const {refetch,data: users=[]} = useQuery({
         queryKey:['user'],
         queryFn:async ()=>{
-            const res = await axiosSecure.get('/users',{
-                headers:{
-                    authorization: `Bearer ${localStorage.getItem('access-token')}`
-                }
-            })
+            const res = await axiosSecure.get('/users')
             return res.data
         } 
 

@@ -65,12 +65,13 @@ const Navber = () => {
             <li>
               <a>BLOG</a>
             </li>
+            <Link to='/contact'>
             <li>
               <a>LET'S CONNECT</a>
-            </li>
-            <li>
-              <a>+88-01970477973</a>
-            </li>
+            </li></Link>
+          <Link to='/dashboard'>  <li>
+              <a>DASHBOARD</a>
+            </li></Link>
             {user ? (
               <li>
                 {" "}
@@ -169,9 +170,10 @@ const Navber = () => {
                 <li>
                   <a>BLOG</a>
                 </li>
-                <li>
-                  <a>LET'S CONNECT</a>
-                </li>
+                <Link to='/contact'>
+            <li>
+              <a>LET'S CONNECT</a>
+            </li></Link>
                 {user ? (
               <li>
                 {" "}

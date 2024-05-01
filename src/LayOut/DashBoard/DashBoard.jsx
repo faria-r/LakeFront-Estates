@@ -54,7 +54,26 @@ const DashBoard = () => {
                 </li>
               </>
             ) : (
-              <></>
+              <><li className="rounded-none  text-white text-xl">
+              {" "}
+              <Link to="/dashboard/favourites">
+                <FaHouse></FaHouse>Favourites
+              </Link>
+            </li>
+           
+            <li className="rounded-none  text-white text-xl">
+              {" "}
+              <Link to="">
+                <MdOutlineBookmarkAdded /> Booking
+              </Link>
+            </li>
+            <li className="rounded-none  text-white text-xl">
+              {" "}
+              <Link to="">
+                <AiTwotoneSchedule /> Schedule
+              </Link>
+            </li>
+            </>
             )}
           </ul>
         </div>

@@ -12,6 +12,9 @@ import DisplayError from "../Pages/DisplayError/DisplayError";
 import DashBoard from "../LayOut/DashBoard/DashBoard";
 import DashBoardHomes from "../Pages/DashBoardHomes/DashBoardHomes";
 import AllUsers from "../Pages/AllUsers/AllUsers";
+import CommonDashboard from "../Pages/CommonDashboard/CommonDashboard";
+import FavouritesHomes from "../Pages/FavouritesHomes/FavouritesHomes";
+import Contact from "../Pages/Contact/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -50,10 +53,18 @@ export const router = createBrowserRouter([
     element: <SignUP></SignUP>,
   },
   {
-    path:'dashboard',
-    element:<DashBoard></DashBoard>,
+    path: "/contact",
+    element: <Contact></Contact>,
+  },
+  {
+    path:'/dashboard',
+    element:<PrivateRoute><DashBoard></DashBoard></PrivateRoute>,
     errorElement:<DisplayError></DisplayError>,
     children:[
+      {
+        path:'/dashboard',
+        element:<CommonDashboard></CommonDashboard>
+      },
       {
         path:'/dashboard/homes',
         element:<DashBoardHomes></DashBoardHomes>
@@ -61,6 +72,10 @@ export const router = createBrowserRouter([
       {
         path:'/dashboard/users',
         element:<AllUsers></AllUsers>
+      },
+      {
+        path:'/dashboard/favourites',
+        element:<FavouritesHomes></FavouritesHomes>
       },
     ]
   },

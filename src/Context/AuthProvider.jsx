@@ -20,11 +20,12 @@ const axiosPublic = useAxiosPublic();
   useEffect(() => {
     const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
-      if (currentUser === null || currentUser.email) {
+      if (currentUser === null || currentUser?.email) {
         //get token
-        const userInfo = {email:currentUser.email}
+        const userInfo = {email:currentUser?.email}
         axiosPublic.post('/jwt',userInfo)
         .then(res => {
+          console.log(res.data.token,'got token')
           if(res.data.token){
             localStorage.setItem('access-token', res.data.token)
           }
