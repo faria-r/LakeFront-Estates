@@ -1,13 +1,17 @@
 import React from 'react';
 import useFindHome from '../../Hooks/useFindHome';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const DashBoardHomes = () => {
+  AOS.init();
     const[ homes] = useFindHome()
     return (
         <div className='text-black w-auto'>
 <div className='grid lg:grid-cols-3 gap-4 mt-4'>
 {
-    homes.map(home => <div key={home._id} home={home} className="border lg:mx-12 mb-8 w-[20vw]  lg:h-[35vh] relative shadow-xl">
+    homes.map(home => <div  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" key={home._id} home={home} className="border lg:mx-12 mb-8 w-[20vw]  lg:h-[35vh] relative shadow-xl">
     <div>
       <img src={home.Homepicture} alt="" className="lg:h-[20vh] lg:w-[20vw]" />
     </div>

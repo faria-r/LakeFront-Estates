@@ -8,7 +8,10 @@ import { RiDeleteBin2Line } from "react-icons/ri";
 import Swal from "sweetalert2";
 import useAxiosSecure from "../../Hooks/useAxiosPublic/useAxiosSecure";
 import { MdAdminPanelSettings } from "react-icons/md";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const AllUsers = () => {
+  AOS.init();
   const [user, refetch] = useTanstack();
   const axiosSecure = useAxiosSecure();
   const handleDelete = (user) => {
@@ -77,7 +80,7 @@ const AllUsers = () => {
             </thead>
             <tbody>
               {user.map((u, index) => (
-                <tr key={u._id}>
+                <tr data-aos="zoom-out-right" data-aos-duration ="3000" key={u._id}>
                   <th>{index + 1}</th>
                   <td>
                     <div className="flex items-center gap-3">

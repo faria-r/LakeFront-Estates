@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider";
 import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
+import { SiGnuprivacyguard } from "react-icons/si";
 
 const SignUP = () => {
   const { register,reset, handleSubmit } = useForm();
@@ -62,14 +63,23 @@ const navigate = useNavigate();
       });
       
   };
+  const myStyle = {
+    backgroundImage:
+        "url('https://i.ibb.co/YZ6MT6w/3142184.jpg')",
+    minHeight: "100vh",
+
+   
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+};
   return (
-    <div className="py-16 bg-sky-950 pb-16">
+    <div style={myStyle} className="py-16 ">
       <form
         onSubmit={handleSubmit(handleCreateUser)}
-        className=" border shadow-xl border-sky-950 bg-transparent lg:w-[30vw] mb-16 mx-auto py-8  px-8 bg-white"
+        className=" border shadow-xl border-sky-950 bg-transparent lg:w-[30vw] mb-16 mx-auto py-8  px-8 bg-white opacity-75"
       >
-        <h2 className="text-3xl text-center mb-8 font-mono uppercase">
-          Register Now
+        <h2 className="text-3xl w-16 mx-auto text-green-700 text-center font-mono uppercase">
+        <SiGnuprivacyguard />
         </h2>
         <div>
           <input

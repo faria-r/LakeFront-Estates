@@ -7,6 +7,7 @@ import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
 import { IoIosLogIn } from "react-icons/io";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebookF } from "react-icons/fa6";
+import { BsFacebook } from "react-icons/bs";
 
 
 const Login = () => {
@@ -64,7 +65,7 @@ const Login = () => {
         className=" border shadow-xl border-sky-950 bg-transparent lg:w-[30vw] mb-16 mx-auto py-8  px-8 bg-white opacity-70"
       >
         <div className="">
-        <h2 className="text-5xl w-8 mx-auto text-center font-mono uppercase">
+        <h2 className="text-5xl text-green-700 w-8 mx-auto text-center font-mono uppercase">
         <IoIosLogIn />
         </h2>
         </div>
@@ -91,10 +92,10 @@ const Login = () => {
         />
 <p className="text-center my-2">Don't Have An Account? <Link className="text-blue-600 underline" to='/signup'>Register Now</Link></p>
         <div className="divider">OR</div>
-        <button onClick={handleLoginWithGoogle} className="btn my-2 w-full bg-sky-950 text-white text-xl px-16 py-2"
+        <button onClick={handleLoginWithGoogle} className="btn my-2 w-full bg-sky-950 text-white text-xl px-16 py-2 font-mono"
           >Log In With <FcGoogle /></button> <br />
-          <button className="btn my-2 w-full text-xl bg-sky-950 text-white px-16 py-2"
-          >Log In With <FaFacebookF /> </button> 
+          <button className="btn my-2 w-full text-xl font-mono bg-sky-950 text-white px-16 py-2"
+          >Log In With <BsFacebook /> </button> 
         
       </form>
     </div>
