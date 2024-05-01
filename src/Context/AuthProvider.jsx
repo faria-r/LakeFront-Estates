@@ -39,7 +39,7 @@ const axiosPublic = useAxiosPublic();
     return () => {
       unSubscribe();
     };
-  }, []);
+  }, [axiosPublic]);
 
   //create user with email password
   const createUser = (email, password) => {
