@@ -42,7 +42,7 @@ const DashBoard = () => {
                 </li>
                 <li className="rounded-none  text-white text-xl">
                   {" "}
-                  <Link to="/dashboard/homes">
+                  <Link to="/dashboard/schedules">
                     <AiTwotoneSchedule /> Schedule's
                   </Link>
                 </li>

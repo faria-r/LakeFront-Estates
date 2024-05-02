@@ -15,6 +15,7 @@ import AllUsers from "../Pages/AllUsers/AllUsers";
 import CommonDashboard from "../Pages/CommonDashboard/CommonDashboard";
 import FavouritesHomes from "../Pages/FavouritesHomes/FavouritesHomes";
 import Contact from "../Pages/Contact/Contact";
+import ScheduleLists from "../Pages/scheduleLists/ScheduleLists";
 
 export const router = createBrowserRouter([
   {
@@ -76,6 +77,10 @@ export const router = createBrowserRouter([
       {
         path:'/dashboard/favourites',
         element:<FavouritesHomes></FavouritesHomes>
+      },
+      {
+        path:'/dashboard/schedules',
+        element:<ScheduleLists></ScheduleLists>
       },
     ]
   },
