@@ -9,7 +9,7 @@ const FeaturedForSell = () => {
   const filteredData = data.slice(13,15);
   console.log(filteredData.length)
   return (
-    <div className="w-[90vw] mx-auto text-center">
+    <div className="w-[90vw] mx-auto text-center ">
       <h2 className="text-5xl font-serif pt-36 pb-12">
         Lake Oconee Real Estate for Sale
       </h2>

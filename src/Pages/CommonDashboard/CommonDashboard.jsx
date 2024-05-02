@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const CommonDashboard = () => {
   const { user } = useContext(AuthContext);
   return (
-    <div className=" lg:w-[25vw] p-4 h-auto mx-auto mt-16 bg-sky-800  text-center mb-16 shadow-xl text-white">
+    <div data-aos="zoom-in-left" data-aos-duration="2000" className=" lg:w-[25vw] p-4 max-h-[50vh] mx-auto mt-16 bg-sky-800  text-center mb-16 shadow-xl text-white">
       <div className="avatar   mx-auto">
   <div className="w-16 mask mask-hexagon mx-auto">
     <img src={user.photoURL}/>

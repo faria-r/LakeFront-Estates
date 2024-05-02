@@ -5,6 +5,7 @@ import { DateRangePicker } from 'react-date-range';
 import { addDays } from 'date-fns';
 import { useState } from 'react';
 import Button from "../Button/Button";
+import ModalButton from "../ModalButton/ModalButton";
 
 
 const Schedule = () => {
@@ -20,6 +21,8 @@ const Schedule = () => {
     key: 'compare'
   }
 });
+const selectedDate =state.compare.startDate;
+console.log(selectedDate)
   return (
     <div className=" sm:max-w-[50vw]  border shadow-xl mx-auto lg:pr-2">
       <h2 className="text-4xl font-semibold font-mono mb-6 text-center"> Schedule a Showing</h2>
@@ -43,7 +46,7 @@ const Schedule = () => {
         <div className="text-center lg:w-[30vw] mx-auto"> <Button value={"IN PRESENT"}></Button></div>
         <div className="text-center w-[30vw] mx-auto"> <Button value={"Via Video"}></Button></div>
       </div>
-      <div className="text-center w-[30vw] mx-auto"><Button value={'NEXT'}></Button></div>
+      <div className="text-center w-[30vw] mx-auto"><ModalButton value={'NEXT'} date={selectedDate}></ModalButton></div>
     </div>
   )
 };

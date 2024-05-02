@@ -73,6 +73,12 @@ const DashBoard = () => {
                 <AiTwotoneSchedule /> Schedule
               </Link>
             </li>
+            <li className="rounded-none  text-white text-xl">
+              {" "}
+              <Link to="">
+                <AiTwotoneSchedule />Add Review 
+              </Link>
+            </li>
             </>
             )}
           </ul>

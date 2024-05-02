@@ -4,7 +4,7 @@ import SocialLinks from "../ReUsable/SocialLinks/SocialLinks";
 
 const MeetAuthor = () => {
   return (
-    <div className="w-[90vw] mx-auto lg:text-start lg:flex  lg:justify-between items-center gap-2">
+    <div className="w-[90vw]  mx-auto lg:text-start lg:flex  lg:justify-between items-center gap-2">
       <div className="lg:mr-8">
         <div className="sm:w-[65vw] mx-auto lg:w-auto text-center">
           <img className="w-full" src="https://i.ibb.co/k89ZvSk/650b43ed39865.webp" alt="" />

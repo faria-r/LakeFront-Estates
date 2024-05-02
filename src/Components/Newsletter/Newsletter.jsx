@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className="lg:h-auto  w-auto p-16 text-center text-white font-serif mt-8 bg-sky-950">
+    <div className="lg:h-auto w-[100vw] p-16 text-center text-white font-serif mt-8 bg-sky-950">
       <h1 className="lg:text-4xl font-semibold pt-8">
         Receive exclusive off-market listings in your inbox.
       </h1>

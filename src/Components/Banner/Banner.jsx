@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Banner = () => {
   AOS.init();
   return (
-    <div className="bg-black ">
+    <div className="bg-black mx-auto">
       <video
         src={bgVideo}
         autoPlay
