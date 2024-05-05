@@ -11,7 +11,7 @@ const DashBoardHomes = () => {
 {
     homes.map(home => <div  data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000" key={home._id} home={home} className="border lg:mx-12 mb-8 w-[20vw]  lg:h-[35vh] relative shadow-xl">
+    data-aos-duration="2000" key={home._id} home={home} className="border lg:mx-12 mb-8 w-3/4 lg:w-[20vw] mx-auto lg:h-[35vh] relative shadow-xl">
     <div>
       <img src={home.Homepicture} alt="" className="lg:h-[20vh] lg:w-[20vw]" />
     </div>

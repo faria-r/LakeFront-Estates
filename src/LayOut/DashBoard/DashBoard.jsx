@@ -18,35 +18,35 @@ const DashBoard = () => {
       </div>
       <div className="flex text-white">
         {/* sidebar content */}
-        <div className="w-64 min-h-[100vh] bg-sky-950 mt-28">
+        <div className="sm:w-[20vw] lg:w-64 min-h-[100vh] bg-sky-950 mt-28">
           <ul className="menu p-4">
             {isAdmin ? (
               <>
-                <li className="rounded-none  text-white text-xl">
+                <li className="rounded-none  text-white lg:text-xl">
                   {" "}
                   <Link to="/dashboard/homes">
                     <FaHouse></FaHouse> Home's
                   </Link>
                 </li>
-                <li className="rounded-none  text-white text-xl">
+                <li className="rounded-none  text-white lg:text-xl">
                   {" "}
                   <Link to="/dashboard/users">
                     <ImUsers /> User's
                   </Link>
                 </li>
-                <li className="rounded-none  text-white text-xl">
+                <li className="rounded-none  text-white lg:text-xl">
                   {" "}
                   <Link to="/dashboard/homes">
                     <MdOutlineBookmarkAdded /> Booking's
                   </Link>
                 </li>
-                <li className="rounded-none  text-white text-xl">
+                <li className="rounded-none  text-white lg:text-xl">
                   {" "}
                   <Link to="/dashboard/schedules">
                     <AiTwotoneSchedule /> Schedule's
                   </Link>
                 </li>
-                <li className="rounded-none  text-white text-xl">
+                <li className="rounded-none  text-white lg:text-xl">
                   {" "}
                   <Link to="/dashboard/homes">
                   <BsFillHouseAddFill /> Add Home
@@ -54,26 +54,26 @@ const DashBoard = () => {
                 </li>
               </>
             ) : (
-              <><li className="rounded-none  text-white text-xl">
+              <><li className="rounded-none  text-white lg:text-xl">
               {" "}
               <Link to="/dashboard/favourites">
                 <FaHouse></FaHouse>Favourites
               </Link>
             </li>
            
-            <li className="rounded-none  text-white text-xl">
+            <li className="rounded-none  text-white lg:text-xl">
               {" "}
               <Link to="">
                 <MdOutlineBookmarkAdded /> Booking
               </Link>
             </li>
-            <li className="rounded-none  text-white text-xl">
+            <li className="rounded-none  text-white lg:text-xl">
               {" "}
               <Link to="">
                 <AiTwotoneSchedule /> Schedule
               </Link>
             </li>
-            <li className="rounded-none  text-white text-xl">
+            <li className="rounded-none  text-white lg:text-xl">
               {" "}
               <Link to="/dashboard/addReview">
                 <AiTwotoneSchedule />Add Review 
