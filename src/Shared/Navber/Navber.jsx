@@ -175,6 +175,9 @@ const Navber = () => {
             <li>
               <a>LET'S CONNECT</a>
             </li></Link>
+            <Link to='/dashboard'>  <li>
+              <a>DASHBOARD</a>
+            </li></Link>
                 {user ? (
               <li>
                 {" "}

@@ -16,6 +16,7 @@ import CommonDashboard from "../Pages/CommonDashboard/CommonDashboard";
 import FavouritesHomes from "../Pages/FavouritesHomes/FavouritesHomes";
 import Contact from "../Pages/Contact/Contact";
 import ScheduleLists from "../Pages/scheduleLists/ScheduleLists";
+import AdminRoute from "./AdminRoutes/AdminRoute";
 
 export const router = createBrowserRouter([
   {
@@ -68,11 +69,11 @@ export const router = createBrowserRouter([
       },
       {
         path:'/dashboard/homes',
-        element:<DashBoardHomes></DashBoardHomes>
+        element:<AdminRoute><DashBoardHomes></DashBoardHomes></AdminRoute>
       },
       {
         path:'/dashboard/users',
-        element:<AllUsers></AllUsers>
+        element:<AdminRoute><AllUsers></AllUsers></AdminRoute>
       },
       {
         path:'/dashboard/favourites',
@@ -80,7 +81,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'/dashboard/schedules',
-        element:<ScheduleLists></ScheduleLists>
+        element:<AdminRoute><ScheduleLists></ScheduleLists></AdminRoute>
       },
     ]
   },

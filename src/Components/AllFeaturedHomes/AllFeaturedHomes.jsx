@@ -2,10 +2,14 @@ import React from 'react';
 import useAxios from '../../Hooks/useAxios';
 import FeaturedHomes from '../FeaturedSell/FeaturedHomes';
 import ImgsBanner from '../ReUsable/imgBanner/ImgsBanner';
+import Loading from '../Loading/Loading';
 
 const AllFeaturedHomes = () => {
-    const {data} = useAxios('homeList');
+    const {data,loading} = useAxios('homeList');
     const featuredHomes = data.slice(2,12);
+    if(loading){
+        return <Loading></Loading>
+    }
     return (
         <div>
             <ImgsBanner name={'All Featured Homes'} img={'https://i.ibb.co/jwJWFZf/one.jpg'}></ImgsBanner>

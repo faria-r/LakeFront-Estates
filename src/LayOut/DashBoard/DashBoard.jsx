@@ -75,7 +75,7 @@ const DashBoard = () => {
             </li>
             <li className="rounded-none  text-white text-xl">
               {" "}
-              <Link to="">
+              <Link to="/dashboard/addReview">
                 <AiTwotoneSchedule />Add Review 
               </Link>
             </li>
