@@ -24,9 +24,9 @@ const Testimonials = () => {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         data-aos-duration="1000"
-        className="w-[80vw]  mx-auto mt-24 items-center h-[65vh] lg:h-[70vh] mb-24"
+        className="w-[80vw]  mx-auto mt-24 items-center border pb-6 mb-12"
       >
-        <h2 className="text-center font-mono text-3xl lg:text-5xl mt-16 mb-16">
+        <h2 className="text-center font-mono text-3xl lg:text-5xl my-16">
           Testimonials
         </h2>
         <Swiper
@@ -54,6 +54,7 @@ const Testimonials = () => {
 
           {data.map((each) => (
             <SwiperSlide key={each._id} each={each} className="text-center">
+              <div className="">
               <div className="lg:text-2xl" data-swiper-parallax="-300">
                 {each.name}
               </div>
@@ -65,6 +66,7 @@ const Testimonials = () => {
                 data-swiper-parallax="-100"
               >
                 <p>{each.about}</p>
+              </div>
               </div>
             </SwiperSlide>
           ))}

@@ -14,7 +14,7 @@ const Banner = () => {
         loop
         muted
         poster={black}
-        className="h-[100vh] w-[100%] object-cover opacity-[0.7]"
+        className="h-[100vh] w-[100%] object-cover opacity-[0.6]"
       ></video>
       <div data-aos="fade-left" data-aos-duration="2000" className="w-[90%]  text-white  text-center absolute top-[32%] left-0 right-0 mx-auto">
         <h2 className="  my-4 text-[30px] lg:text-[70px]  font-semibold font-mono">

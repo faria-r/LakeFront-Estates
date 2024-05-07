@@ -12,7 +12,7 @@ const Navber = () => {
       .catch((e) => console.log(e)),
   ];
   return (
-    <div className="absolute top-0 bg-transparent hover:bg-sky-950 z-10 w-full pt-8">
+    <div className="absolute top-0 bg-transparent hover:bg-sky-950 z-10 w-full pt-8 ">
       <div className="navbar" data-aos="fade-down"
     data-aos-duration="3000">
 
