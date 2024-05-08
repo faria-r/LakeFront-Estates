@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import useAxiosPublic from '../../Hooks/useAxiosPublic/useAxiosPublic';
 import { AuthContext } from '../../Context/AuthProvider';
 import { useQuery } from '@tanstack/react-query';
+import { Link } from 'react-router-dom';
 
 const FavouritesHomes = () => {
   const {user} = useContext(AuthContext);
@@ -32,7 +33,7 @@ const FavouritesHomes = () => {
       <p className=" text-xs mt-2 text-red-800">Please pay to confirm your booking</p>
     </div>
    <div className='p-4 text-end'>
-    <button className='btn border border-red-700 bg-transparent py-0 w-24 justify-end' >Pay Now</button>
+    <Link to='/dashboard/payment'><button className='btn border border-red-700 bg-transparent py-0 w-24 justify-end' >Pay Now</button></Link>
    </div>
     <div className="absolute top-0 left-0">
       {" "}

@@ -14,7 +14,7 @@ const MeetAuthor = () => {
         </div>
       </div>
 
-      <div className="w-3/4 mx-auto ">
+      <div className="w-3/4 mx-auto">
         <div>
           <h2 className="text-4xl sm:mt-8 lg:mt-0 font-serif font-semibold">Meet Faria</h2>
         </div>

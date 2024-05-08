@@ -26,8 +26,8 @@ const Contact = () => {
   };
     return (
         <div className='bg-black'>
-            <img className='min-h-full min-w-full opacity-30' src="https://i.ibb.co/D10S6PB/ki.jpg" alt="" />
-            <div className='w-[90%] min-h-screen grid lg:grid-cols-2 gap-4 pt-16 px-8   text-white  text-center absolute top-0 left-0 right-0 mx-auto'>
+            <img className='h-[1200px] min-w-full opacity-30' src="https://i.ibb.co/D10S6PB/ki.jpg" alt="" />
+            <div className='w-[90%] min-h-screen grid lg:grid-cols-2 gap-4 pt-16 px-8   text-white pb-36 text-center absolute top-0 left-0 right-0 mx-auto'>
 <div className='border-r-[1px] min-h-screen'>
     <h1 className='text-5xl font-mono mb-6 pt-6 text-start'>Contact details</h1>
     <div className="flex-col justify-start font-bold relative">
@@ -67,7 +67,7 @@ const Contact = () => {
         </div>
        
 </div>
-<div className='min-h-screen lg:pl-16'>
+<div className='h-auto mt-24 lg:mt-0   lg:pl-16'>
     <h1 className='text-5xl font-mono mb-6 pt-6 text-start'>Send Email</h1>
     <form ref={form} onSubmit={sendEmail} className="flex-col justify-start font-bold relative">
         

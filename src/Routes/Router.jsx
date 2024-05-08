@@ -17,6 +17,7 @@ import FavouritesHomes from "../Pages/FavouritesHomes/FavouritesHomes";
 import Contact from "../Pages/Contact/Contact";
 import ScheduleLists from "../Pages/scheduleLists/ScheduleLists";
 import AdminRoute from "./AdminRoutes/AdminRoute";
+import Payment from "../Pages/Payment/Payment";
 
 export const router = createBrowserRouter([
   {
@@ -83,6 +84,10 @@ export const router = createBrowserRouter([
         path:'/dashboard/schedules',
         element:<AdminRoute><ScheduleLists></ScheduleLists></AdminRoute>
       },
+      {
+        path:'/dashboard/payment',
+        element:<Payment></Payment>
+      }
     ]
   },
   {

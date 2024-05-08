@@ -1,12 +1,13 @@
 import React from 'react';
 import FindHome from '../ReUsable/FindHome/FindHome';
+import { Link } from 'react-router-dom';
 
 const HomeSearch = () => {
     return (
         <div className='w-[90vw]  mx-auto lg:flex justify-evenly items-center gap-3 mb-24 flex-wrap'>
             <FindHome imgLinks={'https://i.ibb.co/FmF4PHs/lkeH.jpg'} tittle={'Home Search'}></FindHome>
             <FindHome imgLinks={'https://i.ibb.co/jwJWFZf/one.jpg'} tittle={'Home Valuation'}></FindHome>
-            <FindHome imgLinks={'https://i.ibb.co/gj375r4/r.jpg'} tittle={`Let's Connect`}></FindHome>
+           <Link to='/contact'> <FindHome imgLinks={'https://i.ibb.co/gj375r4/r.jpg'} tittle={`Let's Connect`}></FindHome></Link>
         </div>
     );
 };
