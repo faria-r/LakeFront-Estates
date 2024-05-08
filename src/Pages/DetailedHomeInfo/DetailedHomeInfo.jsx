@@ -78,7 +78,7 @@ Swal.fire({
           {" "}
           <p className="bg-sky-900 px-16 py-2 text-white">FOR SALE</p>
         </div>
-        <div className="absolute top-0 lg:right-[29%]">
+        <div className="absolute tooltip top-0 right-20 lg:right-[29%]"  data-tip="Add To Favourites">
           {" "}
           <button  style={{
           backgroundColor: active ? 'white' : 'white',
