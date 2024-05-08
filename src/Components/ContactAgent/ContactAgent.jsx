@@ -3,7 +3,7 @@ import React from "react";
 const ContactAgent = () => {
   return (
     <div className="w-auto bg-sky-950 p-6 text-center text-white lg:h-[63vh] ">
-    <div className="w-[80vw] border border-red-700 mx-auto lg:flex justify-center items-center text-center p-6">
+    <div className="w-[80vw] mx-auto lg:flex justify-center items-center text-center p-6">
     <div className="mr-16 w-52 mx-auto">
         <img className='h-[40vh]'src="https://i.ibb.co/9Hdpnp0/Riezl-Baker-headshot.jpg" alt="" />
       </div>
