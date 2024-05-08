@@ -1,14 +1,13 @@
 import React from "react";
-import Button from "../ReUsable/Button/Button";
 
 const ContactAgent = () => {
   return (
-    <div className="w-auto bg-sky-950 text-white lg:h-[60vh] ">
-    <div className="w-[90vw] mx-auto lg:flex justify-center items-center p-12">
-    <div className="mr-16">
+    <div className="w-auto bg-sky-950 p-6 text-center text-white lg:h-[63vh] ">
+    <div className="w-[80vw] border border-red-700 mx-auto lg:flex justify-center items-center text-center p-6">
+    <div className="mr-16 w-52 mx-auto">
         <img className='h-[40vh]'src="https://i.ibb.co/9Hdpnp0/Riezl-Baker-headshot.jpg" alt="" />
       </div>
-      <div className="text-start w-[50vw]">
+      <div className="text-center lg:text-start w-[50vw] mx-auto pt-6 lg:pt-2">
         <h2 className="text-2xl font-mono">Faria Rahman</h2>
         <div className="lg:flex justify-between gap-4 items-center mt-8">
           <div>
