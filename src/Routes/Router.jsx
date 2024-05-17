@@ -18,6 +18,7 @@ import Contact from "../Pages/Contact/Contact";
 import ScheduleLists from "../Pages/scheduleLists/ScheduleLists";
 import AdminRoute from "./AdminRoutes/AdminRoute";
 import Payment from "../Pages/Payment/Payment";
+import Review from "../Components/Review/Review";
 
 export const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ export const router = createBrowserRouter([
       {
         path:'/dashboard/payment',
         element:<Payment></Payment>
+      },
+      {
+path:'/dashboard/addReview',
+element:<Review></Review>
       }
     ]
   },
