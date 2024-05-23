@@ -16,7 +16,7 @@ const WorkWithAuthor = () => {
     >
       <div className="text-center text-white lg:w-[60vw] mx-auto py-36">
         <h1 className=" text-3xl lg:text-5xl  my-16">Work With Faria</h1>
-        <p className=" text-xl  my-6 bg-black opacity-[.6]">
+        <p className=" text-xl  my-6 ">
           A consistent top producer in the Lake Oconee area, Riezl has been
           recognized with numerous awards for her business accomplishments and
           community involvement. Contact Riezl today if you are thinking of
@@ -24,7 +24,7 @@ const WorkWithAuthor = () => {
         </p>
 
         <div>
-      <button className="btn border-2 h-[36] border-white text-white bg-transparent rounded-none px-20 py-4 my-16 text-center">Let's Connect</button>
+      <button className="btn border-2 h-[36] border-white text-white bg-transparent hover:bg-sky-950 rounded-none px-20 py-4 my-16 text-center">Let's Connect</button>
       </div>
       </div>
       

@@ -24,7 +24,7 @@ const Testimonials = () => {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         data-aos-duration="1000"
-        className="w-[80vw]  mx-auto mt-24 items-center border pb-6 mb-12"
+        className="w-[80vw]  mx-auto mt-24 items-center pb-6 mb-12"
       >
         <h2 className="text-center font-mono text-3xl lg:text-5xl my-16">
           Testimonials
