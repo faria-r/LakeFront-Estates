@@ -18,7 +18,7 @@ const CommonDashboard = () => {
     <img src={user.photoURL}/>
   </div>
 </div>
-      <h2 className="text-xl mb-2 text-center">{user.displayName}</h2>
+      <h2 className="text-xl mb-2 bg-gradient-to-r from-amber-400 via-white to-amber-600  text-transparent bg-clip-text text-center">{user.displayName}</h2>
       <div className="text-start items-start p-4">
         <p className="flex justify-center items-center">
           <FcInvite className="text-xl mr-2" /> {user.email}

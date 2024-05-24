@@ -19,7 +19,7 @@ const LakeOHomes = () => {
   return (
     <div>
       <ImgsBanner name={homeName}></ImgsBanner>
-<h2 className="text-center lg:text-[45px] font-mono mt-24">{homeName} Real Estates Listings</h2>
+<h2 className="text-center lg:text-[45px] font-mono mt-24 ">{homeName} Real Estates Listings</h2>
       {/* //filter Components */}
       <div className="w-[90vw] mx-auto my-6">
       <input

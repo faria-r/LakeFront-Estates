@@ -12,7 +12,7 @@ const ImgsBanner = ({ img, name }) => {
       />
       <div data-aos="fade-up"
      data-aos-duration="3000"  className="w-[90%]  text-white  text-center absolute top-[25%] left-0 right-0 mx-auto">
-        <h2 className="  my-4 text-[30px] lg:text-[60px]  font-semibold font-mono">
+        <h2 className=" bg-gradient-to-r from-amber-400 via-white to-amber-600 inline-block text-transparent bg-clip-text my-4 text-[30px] lg:text-[60px]  font-semibold font-mono">
           {" "}
           {name} for Sale | Faria Rahman
         </h2>
