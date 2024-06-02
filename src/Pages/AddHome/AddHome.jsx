@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 
 import useAxiosPublic from "../../Hooks/useAxiosPublic/useAxiosPublic";
 import lease from '../../assets/lease.gif'
+import toast,{Toaster} from "react-hot-toast";
 const AddHome = () => {
   const {
     register,
@@ -29,6 +30,8 @@ const AddHome = () => {
         neighbourhood: data.neighbourhood,
         address: data.address,
         categoryname: data.categoryname,
+        details:data.details,
+neighbourhoodIMG:res.data.data.display_url,
         interior: [
           {
             bed: data.bed,
@@ -52,6 +55,13 @@ const AddHome = () => {
           },
         ],
       };
+      const Addhome = await axiosPublic.post('/addHome',homeInformation)
+      if (Addhome.data.insertedId) {
+        const notify = () => {
+          toast.success("Successfully Added!");
+        };
+        notify();
+      }
     }
   };
   return (
@@ -300,6 +310,7 @@ const AddHome = () => {
           />
         </div>
         <input className="bg-sky-950 px-24 py-3 text-white font-mono col-span-3 mx-auto" type="submit" />
+        <Toaster></Toaster>
       </form>
     </div>
   );
