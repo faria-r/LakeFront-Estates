@@ -19,6 +19,7 @@ import ScheduleLists from "../Pages/scheduleLists/ScheduleLists";
 import AdminRoute from "./AdminRoutes/AdminRoute";
 import Payment from "../Pages/Payment/Payment";
 import Review from "../Components/Review/Review";
+import AddHome from "../Pages/AddHome/AddHome";
 
 export const router = createBrowserRouter([
   {
@@ -39,12 +40,12 @@ export const router = createBrowserRouter([
         path: "/homes/:name",
         element: <LakeOHomes></LakeOHomes>,
         loader: ({ params }) =>
-          fetch(`https://lake-front-estates-server.vercel.app/homes/${params.name}`),
+          fetch(`http://localhost:5000/homes/${params.name}`),
       },
       {
         path:'/home/:id',
         element:<PrivateRoute><DetailedHomeInfo></DetailedHomeInfo></PrivateRoute>,
-        loader:({params}) => fetch(`https://lake-front-estates-server.vercel.app/home/${params.id}`)
+        loader:({params}) => fetch(`http://localhost:5000/home/${params.id}`)
       }
     ],
   },
@@ -72,6 +73,10 @@ export const router = createBrowserRouter([
       {
         path:'/dashboard/homes',
         element:<AdminRoute><DashBoardHomes></DashBoardHomes></AdminRoute>
+      },
+      {
+        path:'/dashboard/addHome',
+        element:<AdminRoute><AddHome></AddHome></AdminRoute>
       },
       {
         path:'/dashboard/users',

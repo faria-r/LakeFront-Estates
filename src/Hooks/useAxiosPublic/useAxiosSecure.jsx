@@ -4,7 +4,7 @@ import { useContext, useEffect } from "react";
 import { AuthContext } from "../../Context/AuthProvider";
 
 const axiosSecure = axios.create({
-    baseURL: 'https://lake-front-estates-server.vercel.app/'
+    baseURL: 'http://localhost:5000/'
 });
 
 const useAxiosSecure = () => {
@@ -66,7 +66,7 @@ export default useAxiosSecure;
 // import { AuthContext } from "../../Context/AuthProvider";
 
 // const axiosSecure = axios.create({
-//     baseURL: 'https://lake-front-estates-server.vercel.app'
+//     baseURL: 'http://localhost:5000'
 // })
 // const useAxiosSecure = () => {
 //     const navigate = useNavigate();

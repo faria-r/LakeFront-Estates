@@ -25,7 +25,6 @@ const axiosPublic = useAxiosPublic();
         const userInfo = {email:currentUser?.email}
         axiosPublic.post('/jwt',userInfo)
         .then(res => {
-          console.log(res.data.token,'got token')
           if(res.data.token){
             localStorage.setItem('access-token', res.data.token)
           }

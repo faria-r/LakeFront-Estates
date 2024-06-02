@@ -9,7 +9,7 @@ const useAxios = (apiEndPoint) => {
     const getHomes = async () => {
         setLoading(true);
         await axios
-          .get(`https://lake-front-estates-server.vercel.app/${apiEndPoint}`)
+          .get(`http://localhost:5000/${apiEndPoint}`)
           .then((response) => {
             setData(response.data);
             setLoading(false);

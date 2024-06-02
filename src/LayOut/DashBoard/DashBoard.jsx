@@ -48,7 +48,7 @@ const DashBoard = () => {
                 </li>
                 <li className="rounded-none  text-white lg:text-xl">
                   {" "}
-                  <Link to="/dashboard/homes">
+                  <Link to="/dashboard/addHome">
                   <BsFillHouseAddFill /> Add Home
                   </Link>
                 </li>
