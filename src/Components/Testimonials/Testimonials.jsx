@@ -19,7 +19,7 @@ const Testimonials = () => {
   const { data } = useAxios("testimonials");
   return (
     <>
-      <div
+      <div id="testimonial"
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"

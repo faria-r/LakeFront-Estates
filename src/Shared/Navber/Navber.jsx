@@ -33,10 +33,10 @@ const Navber = () => {
                 className="dropdown-content z-[1] menu p-2 shadow uppercase   bg-black   w-[20vw] text-white text-xl"
               >
                 <li>
-                  <a>Meet Faria</a>
+                  <a href="#meetAuthor">Meet Faria</a>
                 </li>
                 <li>
-                  <a>Testimonials</a>
+                  <a href="#testimonial">Testimonials</a>
                 </li>
               </ul>
             </div>
@@ -51,7 +51,7 @@ const Navber = () => {
                 <Link to="/featuredHomes">
                   {" "}
                   <li>
-                    <a>Featured properties</a>
+                    <a href="#featured">Featured properties</a>
                   </li>
                 </Link>
 
