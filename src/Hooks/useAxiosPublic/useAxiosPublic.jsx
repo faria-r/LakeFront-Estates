@@ -1,6 +1,6 @@
 import axios from 'axios';
 const axiosPublic = axios.create({
-    baseURL:'http://localhost:5000'
+    baseURL:'https://lake-front-estates-server.vercel.app'
 })
 const useAxiosPublic = () => {
     return axiosPublic;

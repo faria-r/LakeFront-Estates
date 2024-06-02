@@ -40,12 +40,12 @@ export const router = createBrowserRouter([
         path: "/homes/:name",
         element: <LakeOHomes></LakeOHomes>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/homes/${params.name}`),
+          fetch(`https://lake-front-estates-server.vercel.app/homes/${params.name}`),
       },
       {
         path:'/home/:id',
         element:<PrivateRoute><DetailedHomeInfo></DetailedHomeInfo></PrivateRoute>,
-        loader:({params}) => fetch(`http://localhost:5000/home/${params.id}`)
+        loader:({params}) => fetch(`https://lake-front-estates-server.vercel.app/home/${params.id}`)
       }
     ],
   },

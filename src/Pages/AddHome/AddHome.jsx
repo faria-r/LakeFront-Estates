@@ -67,7 +67,7 @@ neighbourhoodIMG:res.data.data.display_url,
   return (
     <div className="text-black lg:w-[70vw] mx-auto  mt-8">
       
-      <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center lg:w-[35vw] mx-auto">
+      <div className=" lg:flex flex-wrap items-center justify-center lg:w-[35vw] mx-auto">
         <div>
             <img src={lease}  className='w-24'alt="" srcset="" />
         </div>
@@ -77,10 +77,11 @@ neighbourhoodIMG:res.data.data.display_url,
       </div>
       <form
         onSubmit={handleSubmit(handleAddHome)}
-        className="border  border-sky-950  p-4 grid md:grid-cols-2 lg:grid-cols-3 gap-4"
+       
       >
-        {/* register your input into the hook by invoking the "register" function */}
-        <div className="w-full">
+    <div  className="border  border-sky-950  p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* register your input into the hook by invoking the "register" function */}
+          <div className="w-full">
           <select
             className="select rounded-none select-bordered p-[1px] border border-sky-600 w-full max-w-xs"
             {...register("name")}
@@ -309,8 +310,10 @@ neighbourhoodIMG:res.data.data.display_url,
             className="p-2 border border-sky-600 "
           />
         </div>
-        <input className="bg-sky-950 px-24 py-3 text-white font-mono col-span-3 mx-auto" type="submit" />
+        <input className="bg-sky-950 px-24 py-3 text-white font-mono lg:col-span-3 mx-auto" type="submit" />
         <Toaster></Toaster>
+    </div>
+       
       </form>
     </div>
   );

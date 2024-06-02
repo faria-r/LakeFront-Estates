@@ -13,9 +13,7 @@ const Navber = () => {
   ];
   return (
     <div className="absolute top-0 bg-transparent hover:bg-sky-950 z-10 w-full pt-8 ">
-      <div className="navbar" data-aos="fade-down"
-    data-aos-duration="3000">
-
+      <div className="navbar" data-aos="fade-down" data-aos-duration="3000">
         <div className="navbar-start">
           <Link to="/" className="text-white text-xl font-mono lg:ml-8 ">
             <img src={logo} className="w-[30vw] lg:w-[10vw]" alt="" />
@@ -23,7 +21,7 @@ const Navber = () => {
         </div>
         <div className="navbar-center  hidden lg:flex ">
           <ul className="menu menu-horizontal px-1 text-white font-semibold opacity-[.7] font-mono">
-         <DropdownContent></DropdownContent>
+            <DropdownContent></DropdownContent>
             <div className="dropdown dropdown-hover">
               <li>
                 <a>ABOUT FARIA</a>
@@ -66,13 +64,17 @@ const Navber = () => {
             <li>
               <a>BLOG</a>
             </li>
-            <Link to='/contact'>
-            <li>
-              <a>LET'S CONNECT</a>
-            </li></Link>
-          <Link to='/dashboard'>  <li>
-              <a>DASHBOARD</a>
-            </li></Link>
+            <Link to="/contact">
+              <li>
+                <a>LET'S CONNECT</a>
+              </li>
+            </Link>
+            <Link to="/dashboard">
+              {" "}
+              <li>
+                <a>DASHBOARD</a>
+              </li>
+            </Link>
             {user ? (
               <li>
                 {" "}
@@ -129,9 +131,8 @@ const Navber = () => {
                 </div>
                 <details className="dropdown dropdown-hover w-auto">
                   <summary>
-                  <DropdownContent></DropdownContent>
+                    <DropdownContent></DropdownContent>
                   </summary>
-              
                 </details>
                 <details className="dropdown dropdown-hover">
                   <summary className="m-1">
@@ -171,30 +172,34 @@ const Navber = () => {
                 <li>
                   <a>BLOG</a>
                 </li>
-                <Link to='/contact'>
-            <li>
-              <a>LET'S CONNECT</a>
-            </li></Link>
-            <Link to='/dashboard'>  <li>
-              <a>DASHBOARD</a>
-            </li></Link>
+                <Link to="/contact">
+                  <li>
+                    <a>LET'S CONNECT</a>
+                  </li>
+                </Link>
+                <Link to="/dashboard">
+                  {" "}
+                  <li>
+                    <a>DASHBOARD</a>
+                  </li>
+                </Link>
                 {user ? (
-              <li>
-                {" "}
-                <a
-                  onClick={handleLogOut}
-                  className="btn bg-transparent border-white w-24 ml-4 my-2 text-white"
-                >
-                  LogOut
-                </a>
-              </li>
-            ) : (
-              <Link to="/login">
-                <li>
-                  <a>Login</a>
-                </li>
-              </Link>
-            )}
+                  <li>
+                    {" "}
+                    <a
+                      onClick={handleLogOut}
+                      className="btn bg-transparent border-white w-24 ml-4 my-2 text-white"
+                    >
+                      LogOut
+                    </a>
+                  </li>
+                ) : (
+                  <Link to="/login">
+                    <li>
+                      <a>Login</a>
+                    </li>
+                  </Link>
+                )}
               </ul>
             </div>
           </div>
