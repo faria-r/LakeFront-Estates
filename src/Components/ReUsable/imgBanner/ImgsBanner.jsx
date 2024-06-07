@@ -17,7 +17,7 @@ const ImgsBanner = ({ img, name }) => {
           {name} for Sale | Faria Rahman
         </h2>
         <div className="border-b-2 mt-6 mb-8 border-b-gray-400 w-[25vw] mx-auto"></div>
-        <p className="my-4 w-3/4 mx-auto">
+        <p className="my-4 lg:w-3/4 mx-auto">
           Discover an array of {name} for sale, guided by the expertise. Whether
           you seek serene waterfront living or a vacation escape, our listings
           offer diverse options. Connect with Faria to gain insights, schedule

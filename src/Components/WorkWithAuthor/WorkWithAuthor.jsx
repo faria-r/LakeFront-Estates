@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WorkWithAuthor = () => {
   return (
@@ -24,7 +25,8 @@ const WorkWithAuthor = () => {
         </p>
 
         <div>
-      <button className="btn border-2 h-[36] border-white text-white bg-transparent hover:bg-sky-950 rounded-none px-20 py-4 my-16 text-center">Let's Connect</button>
+      <Link to='/contact'><button className="btn border-2 h-[36] border-white text-white bg-transparent hover:bg-sky-950 rounded-none px-20 py-4 my-16 text-center">Let's Connect</button>
+      </Link>
       </div>
       </div>
       

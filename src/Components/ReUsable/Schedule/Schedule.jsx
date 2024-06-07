@@ -44,9 +44,9 @@ console.log(selectedDate)
 
 <div className="lg:flex justify-between w-[70vw] lg:w-[40vw] mx-auto mt-2 pt-4 items-center">
         <div className="text-center lg:w-[30vw] mx-auto"> <Button value={"IN PRESENT"}></Button></div>
-        <div className="text-center w-[30vw] mx-auto"> <Button value={"Via Video"}></Button></div>
+        <div className="text-center lg:w-[30vw] mx-auto"> <Button value={"Via Video"}></Button></div>
       </div>
-      <div className="text-center w-[30vw] mx-auto"><ModalButton value={'NEXT'} date={selectedDate}></ModalButton></div>
+      <div className="text-center w-[70vw] lg:w-[40vw] mx-auto"><ModalButton value={'NEXT'} date={selectedDate}></ModalButton></div>
     </div>
   )
 };
